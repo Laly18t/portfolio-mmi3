@@ -65,9 +65,12 @@ function Home() {
                     <div className="w-2/3">
                         <p className="text-4xl mb-8">Teissier Laly - <b className="stroke">une rêveuse</b></p>
                         <p className="mb-4 text-2xl text-justify">Actuellement étudiante en MMI à l'IUT de Chambéry, je me spécialise dans le développement web et la gestion de projet. </p>
-                        <p className="mb-4 text-justify">👉 Quand je suis arrivée en MMI, je ne connaissais rien au monde du multimédia mais cela m'a tout de suite plu. J'aime apprendre de nouvelles choses et tous les domaines de cette formation m'intéressent.</p>
-                        <p className="mb-4 text-justify">👉 Curieuse, volontaire et dynamique, je suis toujours motivée et quand je fais quelque chose, je le fais avec le cœur !</p>
+                        <p className="mb-4 text-justify">👉 Avant d’arriver dans cette formation, je me connaissais rien à ce grand domaine qu’est le multimédia, mais ce monde m’avait toujours intéressé. Au début, ce qui me passionnait était la communication, puis j’ai découvert avec cette formation que grâce au développement, je pouvais combiner plusieurs domaines et en plus créer quelques choses de tangible rien qu’avec mon ordinateur ! </p>
+                        <p className="mb-4 text-justify">👉 Plus j’en apprends dans ce domaine, plus j’ai l’impression de découvrir un monde infini de possibilité de création. En apprendre toujours plus chaque jours est un moteur de création pour moi !</p>
                         <p>👉 Mais je suis avant tout un couteau suisse et j'aiguise mes fonctionnalités en fonction des nouvelles choses que j’apprends au quotidien.</p>
+
+
+
                     </div>
                     <img src={photoLaly}></img>
                 </div>

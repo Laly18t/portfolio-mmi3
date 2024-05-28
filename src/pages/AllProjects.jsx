@@ -26,7 +26,7 @@ function AllProjects() {
             <div className="allProjects">
                 <div className="mt-4  flex -mb-1">
                     {tabs.map((tab, index) => {
-                        return (<a onClick={() => switchSkill(index)} className={`allProjectsGestion cursor-pointer ${selectedTab.title == tab.title ? 'font-bold' : 'font-normal'} ${tab.color} ${tab.text} pb-2 mr-2 rounded-t px-5 py-2`}>{tab.title}</a>)
+                        return (<a onClick={() => switchSkill(index)} className={`allProjectsGestion cursor-pointer ${selectedTab.title == tab.title ? 'font-bold' : 'font-normal'} ${tab.color} ${tab.text} pb-2 mr-2 rounded-t-xl px-5 py-2`}>{tab.title}</a>)
 
                     })}
                 </div>

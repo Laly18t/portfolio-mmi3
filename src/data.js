@@ -131,6 +131,7 @@ const data = {
             "Graphisme",
             "Gestion de projet"
         ],
+        "link": "https://youtube.com/shorts/yoJ_PNcIhwI",
         "img": [
             {
                 "src": borneArcade,
@@ -176,6 +177,7 @@ const data = {
             "Développement de jeux vidéo",
             "Graphisme"
         ],
+        "link": "https://youtube.com/shorts/yoJ_PNcIhwI",
         "img": [
             {
                 "src": pacMmi,
@@ -511,6 +513,7 @@ const data = {
     },
     "mapping": {
         "title": "Mapping vidéo interactif",
+        "short_description": "Conception d’un jeu interactif pour la Nuit de la création",
         "category": "Perso",
         "date": "Février 2024",
         "class": "Projet personnel",
@@ -519,6 +522,7 @@ const data = {
         "description": "La ville de la Motte-Servolex organise tous les ans la “Nuit de la création” dédiée à la découverte de l’art contemporain, en déambulant dans la ville, à travers des œuvres à la fois originales et interactives. Pour la prochaine édition, la conciergerie (galerie d’art de la ville) voudrait attirer un public plus jeune et rendre accessible l’art par le jeu, tout en valorisant le travail d’étudiants. Mon projet permettrait d’utiliser des techniques inconnues pour le grand public en les rendant accessible à travers un jeu qui leur sera familier. Pour le moment, j’ai d’abord voulu prendre en main l’outil c’est pour cela que le jeu n’est pas en rapport avec l’art contemporain, ce sera la prochaine étape du projet.",
         "tools": ["Javascript", "Arduino", "WebSockets"],
         "skill": ["Transmission de positions avec les WebSockets", "Canva en JS", "Leap Motion", "Jeu vidéo"],
+        "link": "https://youtube.com/shorts/R7S01Bwt6Ko",
         "img": [
             {
                 "src": mapping1,
@@ -542,6 +546,40 @@ const data = {
             }
         ],
         "conclusion": "Grâce à ce projet, j'ai appris à faire évoluer un jeu existant en l’adaptant avec des nouvelles techniques d’interaction (buzzer Arduino + Leap Motion). J'ai aussi pu mettre en application des notions vu en cours afin de mieux les comprendre et me les approprier, ce qui est une bonne manière d'intégrer réellement les notions."
+    },
+    "web_infographie": {
+        "title": "Infographie interactive",
+        "short_description": "Apprentissage de l’utilisation de la librairie GSAP pour l'interaction web",
+        "category": "Perso",
+        "date": "Février 2024",
+        "class": "Projet personnel",
+        "roles": ["Développeuse web", "Graphiste"],
+        "description": "En 2ème année de MMI, j’ai dû réaliser une infographie sur le sujet de mon choix. Cela m’a beaucoup plu et j’ai voulu donner une nouvelle dimension à cette infographie en la développant en web et en la rendant interactive. En plus de sensibiliser sur un sujet qui m’intéresse, le café, je le rends ludique et immersif grâce aux interactions. J’ai pu me former sur l’utilisation de librairie d’animations et aller plus loin dans mon apprentissage du front-end grâce à ce projet. Ce projet m’a permis de voir le développement web comme un outil permettant de mettre en valeur des idées en les rendant immersive.",
+        "tools": ["Javascript", "librairie GSAP", "Figma"],
+        "skill": ["Apprentissage de l’utilisation de la librairie GSAP", "Développement Front - end", "Conception et rédaction d’une infographie"],
+        "img": [
+            {
+                "src": mapping3,
+                "alt": "logiciel de régie"
+            },
+            {
+                "src": mapping3,
+                "alt": "logiciel de régie"
+            },
+            {
+                "src": mapping3,
+                "alt": "logiciel de régie"
+            },
+            {
+                "src": mapping3,
+                "alt": "logiciel de régie"
+            },
+            {
+                "src": mapping3,
+                "alt": "logiciel de régie"
+            }
+        ],
+        "conclusion": "Avec cette infographie interactive, j’ai voulu sensibilisation sur un sujet tout en le rendant ludique : ici le développement n’est pas une finalité mais un moyen de mettre en valeur une idée/concept. J’ai pu faire l’apprentissage de l’intégration de méthode d’animation web et de leur logique, ce qui m’a permis d’aller plus loin sur l’aspect front-end du métier de développeur."
     }
 };
 
