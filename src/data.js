@@ -1,5 +1,7 @@
 import logoLaly from "./assets/logoLaly.svg"
+
 /* IMG MMIX */
+import mmixLogo from "./assets/photo/mmixLogo.png"
 import mmix from "./assets/photo/mmix.png"
 import mmix0 from "./assets/photo/mmix0.jpeg"
 import mmix1 from "./assets/photo/mmix1.jpeg"
@@ -12,32 +14,41 @@ import borneArcade from "./assets/photo/borneArcade0.png"
 import borneArcade1 from "./assets/photo/borneArcade1.png"
 import borneArcade2 from "./assets/photo/borneArcade2.jpeg"
 import pacMmi from "./assets/photo/pacMmi.png"
+import pacman from "./assets/photo/pacman.png"
 
 /* IMG idol + elementaris */
+import elementarisLogo from "./assets/photo/elementarisLogo.png"
 import elementaris from "./assets/photo/elementaris.png"
 import elementaris2 from "./assets/photo/elementaris2.jpeg"
 import elementaris3 from "./assets/photo/elementaris3.png"
+import artemisLogo from "./assets/photo/artemisLogo.png"
 import artemis1 from "./assets/photo/artemis1.png"
 import artemis2 from "./assets/photo/artemis2.png"
 import idol from "./assets/photo/idol.jpeg"
 
 /* IMG MUEW */
+import muewLogo from "./assets/photo/muewLogo.jpeg"
 import muew0 from "./assets/photo/muew0.png"
 import muew1 from "./assets/photo/muew1.png"
 import muew2 from "./assets/photo/muew2.png"
 import muew3 from "./assets/photo/muew3.png"
 
 /* IMG mosquito */
+import mosquito from "./assets/photo/mosquito.png"
 import mosquito0 from "./assets/photo/mosquito0.jpeg"
 import mosquito1 from "./assets/photo/mosquito1.png"
 import mosquito2 from "./assets/photo/mosquito2.png"
 import mosquito3 from "./assets/photo/mosquito3.jpeg"
 
 /* IMG mapping */
+import mappingShip from "./assets/photo/mappingShip.png"
 import mapping0 from "./assets/photo/mapping0.jpeg"
 import mapping1 from "./assets/photo/mapping1.jpeg"
 import mapping2 from "./assets/photo/mapping2.jpeg"
 import mapping3 from "./assets/photo/mapping3.jpeg"
+
+/* IMG infographie */
+import infographie0 from "./assets/photo/infographie0.svg"
 
 
 const data = {
@@ -68,8 +79,8 @@ const data = {
         "link": "https://web.archive.org/web/20230327013916/https://mmixchambery.fr/",
         "img": [
             {
-                "src": mmix,
-                "alt": "interface live mmix"
+                "src": mmixLogo,
+                "alt": "logo mmix"
             },
             {
                 "src": mmix2,
@@ -180,8 +191,8 @@ const data = {
         "link": "https://youtube.com/shorts/yoJ_PNcIhwI",
         "img": [
             {
-                "src": pacMmi,
-                "alt": "interface du jeu"
+                "src": pacman,
+                "alt": "personnage du jeu"
             },
             {
                 "src": borneArcade,
@@ -225,8 +236,8 @@ const data = {
         ],
         "img": [
             {
-                "src": elementaris,
-                "alt": "affiche de l'oeuvre elementaris"
+                "src": elementarisLogo,
+                "alt": "logo de l'oeuvre elementaris"
             },
             {
                 "src": elementaris,
@@ -270,8 +281,8 @@ const data = {
         "link": "https://muew.eu/",
         "img": [
             {
-                "src": muew1,
-                "alt": "vue du site muew"
+                "src": muewLogo,
+                "alt": "logo muew"
             },
             {
                 "src": muew0,
@@ -316,8 +327,8 @@ const data = {
         ],
         "img": [
             {
-                "src": "logoLaly.svg",
-                "alt": "logo Laly"
+                "src": artemisLogo,
+                "alt": "logo Art'émis"
             },
             {
                 "src": elementaris3,
@@ -361,8 +372,8 @@ const data = {
         "link": "https://web.archive.org/web/20230327013916/https://mmixchambery.fr/",
         "img": [
             {
-                "src": mmix,
-                "alt": "interface live mmix"
+                "src": mmixLogo,
+                "alt": "logo mmix"
             },
             {
                 "src": mmix,
@@ -406,8 +417,8 @@ const data = {
         ],
         "img": [
             {
-                "src": "logoLaly.svg",
-                "alt": "logo Laly"
+                "src": infographie0,
+                "alt": "caspule de café"
             },
             {
                 "src": "logoLaly.svg",
@@ -451,8 +462,8 @@ const data = {
         ],
         "img": [
             {
-                "src": artemis1,
-                "alt": "logo Laly"
+                "src": artemisLogo,
+                "alt": "logo Art'émis"
             },
             {
                 "src": artemis1,
@@ -489,7 +500,7 @@ const data = {
             ["IoT", "Conception d’un produit en plusieurs quantités", "Communication de données "],
         "img": [
             {
-                "src": mosquito1,
+                "src": mosquito,
                 "alt": "apperçu de la boite anti-moutique"
             },
             {
@@ -525,7 +536,7 @@ const data = {
         "link": "https://youtube.com/shorts/R7S01Bwt6Ko",
         "img": [
             {
-                "src": mapping1,
+                "src": mappingShip,
                 "alt": ""
             },
             {
@@ -559,8 +570,8 @@ const data = {
         "skill": ["Apprentissage de l’utilisation de la librairie GSAP", "Développement Front - end", "Conception et rédaction d’une infographie"],
         "img": [
             {
-                "src": mapping3,
-                "alt": "logiciel de régie"
+                "src": infographie0,
+                "alt": "caspule de café"
             },
             {
                 "src": mapping3,

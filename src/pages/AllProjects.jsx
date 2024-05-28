@@ -37,9 +37,9 @@ function AllProjects() {
                                 console.log("data :", project.img[0].src)
                                 return (
                                     <a className="allProjectsLi w-60 m-2 bg-beigee p-4 rounded h-60" href={`/projet/${idProject}`}>
-                                        <li className="flex flex-col justify-between" key={idProject}>
+                                        <li className="flex flex-col h-full justify-between" key={idProject}>
                                             <u>LIEN</u> {project.title}
-                                            <img className="w-16" src={project.img[0].src} alt={project.img[0].alt}></img>
+                                            <img className="w-16 m-auto" src={project.img[0].src} alt={project.img[0].alt}></img>
                                             <p className="relative bottom-0 bg-terracota p-2 rounded-2xl text-beigee">{project.date}</p>
                                         </li>
                                     </a>
@@ -48,9 +48,9 @@ function AllProjects() {
                             } else if (selectedTab.items.some(r => project.category == "Perso")) {
                                 return (
                                     <a className="allProjectsLi w-60 m-2 bg-beigee p-4 rounded h-60" href={`/projet/${idProject}`}>
-                                        <li className="flex flex-col justify-between" key={idProject}>
+                                        <li className="flex flex-col h-full justify-between" key={idProject}>
                                             <u>LIEN</u> {project.title}
-                                            <img className="w-16" src={project.img[0].src} alt={project.img[0].alt}></img>
+                                            <img className="w-16 m-auto" src={project.img[0].src} alt={project.img[0].alt}></img>
                                             <p className="relative bottom-0 bg-terracota p-2 rounded-2xl text-beigee">{project.date}</p>
                                         </li>
                                     </a>
