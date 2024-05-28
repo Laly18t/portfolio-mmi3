@@ -1,0 +1,72 @@
+/* --------------- CSS HEADER ------------------ */
+
+div.divHeader {
+    z-index: 11;
+    top: 5px;
+    padding: 10px 5%;
+    position: sticky;
+
+    header {
+        width: 100%;
+        min-height: 50px;
+        display: flex !important;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        background-color: var(--color-terracota);
+        border-radius: 10px;
+
+        a img.logoLaly {
+            width: 50px;
+            padding: 10px;
+        }
+
+        nav {
+            width: 100%;
+
+            ul {
+                width: 100%;
+                display: inline-flex;
+                justify-content: flex-end;
+
+                li {
+                    display: inline-block;
+                    transition: 3s ease-out;
+                    margin: 0 15px;
+                    padding-right: 5px;
+
+                    &:before,
+                    &:after {
+                        display: inline-block;
+                        transition: transform .5s ease-out;
+                        content: '⊹';
+                    }
+
+                    &:before {
+                        transform: translate(-5px, 0);
+                    }
+
+                    &:after {
+                        transform: translate(5px, 0);
+                    }
+
+                    transition: 1s ease-out;
+
+                    &:hover {
+                        transition: 3s ease-out;
+                        font-family: "Kirvy-Bold";
+
+                        &:before {
+                            transform: translate(-10px, 0);
+                        }
+
+                        &:after {
+                            transform: translate(10px, 0);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

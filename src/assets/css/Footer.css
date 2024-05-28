@@ -1,0 +1,25 @@
+/* --------------- CSS FOOTER ------------------ */
+
+div.divFooter {
+    /* position: absolute; */
+    bottom: 0;
+
+    footer {
+        color: var(--color-bg);
+        width: 100%;
+        min-height: 50px;
+        background-color: var(--color-vert);
+        border-radius: 10px;
+        padding: 0 10px;
+
+        div {
+            align-items: center;
+        }
+
+        img.gifLaly {
+            margin: -15px 0;
+            width: 150px;
+            padding: 10px;
+        }
+    }
+}

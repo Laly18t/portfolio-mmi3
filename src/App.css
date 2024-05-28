@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "Kirvy";
+  src: url(./assets/font/Kirvy-Regular.otf);
+}
+
+@font-face {
+  font-family: "Kirvy-Bold";
+  src: url(./assets/font/Kirvy-Bold.otf);
+}
+
+
+/* --------------- CSS GENERAL ------------------ */
+
+
+body {
+  /* Déclaration variable */
+  --color-vert: #9FC4AD;
+  --color-terracota: #D18861;
+  --color-bg: #FFFAF1;
+
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-vert);
+  font-family: "Kirvy";
+}
+
+/* body::-webkit-scrollbar {
+  width: 10px;
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-vert);
+} */
+
+/* body::-webkit-scrollbar-thumb {
+  background-color: var(--color-vert);
+  border: 3px solid #FFFAF1;
+  border-radius: 10px;
+} */
+
+.wrap {
+  padding: 2% 5%;
+  width: 100%;
+}

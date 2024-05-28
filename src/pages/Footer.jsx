@@ -1,0 +1,24 @@
+import gif from "../assets/plant-cat.gif";
+
+
+function Footer() {
+    return (
+        <div className="divFooter w-full wrap">
+            <footer>
+                <div className="flex justify-between w-full">
+                    <nav>
+                        <ul>
+                            <li><a href="/">Accueil</a></li>
+                            <li><a href="../">Mes Projets</a></li>
+                            <li><a>Moi</a></li>
+                        </ul>
+                    </nav>
+                    <img className="gifLaly" src={gif}></img>
+                </div>
+                <p className="text-center pb-1">Fait avec ❤️ par Laly <b className="text-terracota">|</b> <a href="/">Mentions Légales</a></p>
+            </footer>
+        </div>
+    );
+}
+
+export default Footer;
