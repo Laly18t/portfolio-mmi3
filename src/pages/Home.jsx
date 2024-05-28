@@ -60,7 +60,7 @@ function Home() {
         <>
             <TopPage />
             <div className="homePart2 home relative wrap">
-                <h2 className="titreHomePart2 stroke">Qui suis-je ?</h2>
+                <h2 id="moiLink" className="titreHomePart2 stroke">Qui suis-je ?</h2>
                 <div className="flex w-full mt-56">
                     <div className="w-2/3">
                         <p className="text-4xl mb-8">Teissier Laly - <b className="stroke">une rêveuse</b></p>

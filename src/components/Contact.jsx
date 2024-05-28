@@ -1,7 +1,7 @@
 function Contact() {
     return (
         <div className="homePart6 home wrap">
-            <h2 className="titreHomePart6 stroke">Contactez-moi !</h2>
+            <h2 id="contactLink" className="titreHomePart6 stroke">Contactez-moi !</h2>
             <div className="flex justify-around mt-8 mb-8">
                 <div className="contactPhone">
                     <p className="text-2xl text-beigee">07 82 91 09 75</p>
