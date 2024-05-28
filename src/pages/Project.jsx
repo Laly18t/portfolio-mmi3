@@ -42,7 +42,7 @@ function Project() {
 
                         </div>
                         <div className="w-1/2">
-                            <p className="mt-4 mb-4 decoration-terracota text-end"><span className=" bg-terracota p-2 rounded-xl text-beigee"><b>Année :</b> {projectData.date} ( {projectData.class} )</span> </p>
+                            <p className="mt-4 mb-8 decoration-terracota text-end"><span className=" bg-terracota p-2 rounded-xl text-beigee"><b>Année :</b> {projectData.date} ( {projectData.class} )</span> </p>
                             <p className="w-full mb-4 decoration-vertt text-end"><span className=" bg-vertt p-2 rounded-xl text-black"><b>Rôles : </b> {projectData.roles.join(" - ")}</span></p>
                         </div>
                     </div>

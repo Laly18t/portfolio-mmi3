@@ -50,6 +50,11 @@ import mapping3 from "./assets/photo/mapping3.jpeg"
 /* IMG infographie */
 import infographie0 from "./assets/photo/infographie0.svg"
 
+/* IMG Tagaday */
+import tagaday0 from "./assets/photo/tagaday0.png"
+import tagaday1 from "./assets/photo/tagaday1.png"
+import tagaday2 from "./assets/photo/tagaday2.png"
+import tagaday3 from "./assets/photo/tagaday3.png"
 
 const data = {
     "mmix": {
@@ -591,6 +596,40 @@ const data = {
             }
         ],
         "conclusion": "Avec cette infographie interactive, j’ai voulu sensibilisation sur un sujet tout en le rendant ludique : ici le développement n’est pas une finalité mais un moyen de mettre en valeur une idée/concept. J’ai pu faire l’apprentissage de l’intégration de méthode d’animation web et de leur logique, ce qui m’a permis d’aller plus loin sur l’aspect front-end du métier de développeur."
+    },
+    "tagaday": {
+        "title": "Start-up Tagaday!",
+        "short_description": "Création d’une start-up sur un projet innovant",
+        "category": "Projet étudiant",
+        "date": "Décembre 2023",
+        "class": "MMI2",
+        "roles": ["Communicante", "Conceptrice"],
+        "description": "Idéation, réflexion, création, nous sommes passées par pleins d’étapes pour créer cette start-up ! Je vous présente Tagaday, une application de gestion de centres équestres. Nous avons créé la maquette de l’application afin de tester notre idée et son utilisation, pour savoir si nous répondons au mieux à la demande du marché. Nous avons aussi pitché notre projet devant la gérante de l’Incubateur de Savoie Technolac, qui a une vraie expertise de cet exercice et nous a donné de vrais conseils pour le jour où nous voudrons vraiment montrer un projet de start-up.",
+        "tools": ["Figma", "Internet", "Cours"],
+        "skill": ["Communication", "Conception"],
+        "img": [
+            {
+                "src": tagaday0,
+                "alt": "logo tagaday"
+            },
+            {
+                "src": tagaday2,
+                "alt": "figma de tagaday"
+            },
+            {
+                "src": tagaday1,
+                "alt": "ecran de connexion tagaday"
+            },
+            {
+                "src": tagaday2,
+                "alt": "figma tagaday"
+            },
+            {
+                "src": tagaday3,
+                "alt": "page d'accueil tagaday"
+            }
+        ],
+        "conclusion": "Ce projet a été très enrichissant car on sait désormais comment créer sa start-up et savoir si son projet est viable ! C’est une compétence importante pour notre avenir afin d’avoir toutes les cartes en main pour faire de bons choix."
     }
 };
 
