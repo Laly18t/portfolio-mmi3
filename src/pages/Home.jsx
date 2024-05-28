@@ -64,9 +64,9 @@ function Home() {
                 <div className="flex w-full mt-56">
                     <div className="w-2/3">
                         <p className="text-4xl mb-8">Teissier Laly - <b className="stroke">une rêveuse</b></p>
-                        <p className="mb-4 text-2xl">Actuellement étudiante en MMI à l'IUT de Chambéry, je me spécialise dans le développement web et la gestion de projet. </p>
-                        <p className="mb-4">👉 Quand je suis arrivée en MMI, je ne connaissais rien au monde du multimédia mais cela m'a tout de suite plu. J'aime apprendre de nouvelles choses et tous les domaines de cette formation m'intéressent.</p>
-                        <p className="mb-4">👉 Curieuse, volontaire et dynamique, je suis toujours motivée et quand je fais quelque chose, je le fais avec le cœur !</p>
+                        <p className="mb-4 text-2xl text-justify">Actuellement étudiante en MMI à l'IUT de Chambéry, je me spécialise dans le développement web et la gestion de projet. </p>
+                        <p className="mb-4 text-justify">👉 Quand je suis arrivée en MMI, je ne connaissais rien au monde du multimédia mais cela m'a tout de suite plu. J'aime apprendre de nouvelles choses et tous les domaines de cette formation m'intéressent.</p>
+                        <p className="mb-4 text-justify">👉 Curieuse, volontaire et dynamique, je suis toujours motivée et quand je fais quelque chose, je le fais avec le cœur !</p>
                         <p>👉 Mais je suis avant tout un couteau suisse et j'aiguise mes fonctionnalités en fonction des nouvelles choses que j’apprends au quotidien.</p>
                     </div>
                     <img src={photoLaly}></img>
@@ -122,7 +122,7 @@ function Home() {
                                 <p className="text-center">- Spécialité développement web -</p>
                             </div>
                         </div>
-                        <p className="mt-8 text-center text-xl w-2/3 m-auto">Grâce à cette formation, j’ai pu découvrir de nombreux domaines du multimédia comme l’audiovisuel, la communication, le graphisme et le développement web.
+                        <p className="mt-8 text-center text-xl w-2/3 m-auto ">Grâce à cette formation, j’ai pu découvrir de nombreux domaines du multimédia comme l’audiovisuel, la communication, le graphisme et le développement web.
                             Cela m’a permis de devenir un véritable couteau-suisse du web ! </p>
                     </div>
                 </div>

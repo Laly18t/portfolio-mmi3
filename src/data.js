@@ -4,10 +4,13 @@ import mmix from "./assets/photo/mmix.png"
 import mmix0 from "./assets/photo/mmix0.jpeg"
 import mmix1 from "./assets/photo/mmix1.jpeg"
 import mmix2 from "./assets/photo/mmix2.jpeg"
+import mmix3 from "./assets/photo/mmix3.png"
+import mmix4 from "./assets/photo/mmix4.png"
 
 /* IMG Borne d'arcade + pacMmi */
 import borneArcade from "./assets/photo/borneArcade0.png"
 import borneArcade1 from "./assets/photo/borneArcade1.png"
+import borneArcade2 from "./assets/photo/borneArcade2.jpeg"
 import pacMmi from "./assets/photo/pacMmi.png"
 
 /* IMG idol + elementaris */
@@ -23,6 +26,18 @@ import muew0 from "./assets/photo/muew0.png"
 import muew1 from "./assets/photo/muew1.png"
 import muew2 from "./assets/photo/muew2.png"
 import muew3 from "./assets/photo/muew3.png"
+
+/* IMG mosquito */
+import mosquito0 from "./assets/photo/mosquito0.jpeg"
+import mosquito1 from "./assets/photo/mosquito1.png"
+import mosquito2 from "./assets/photo/mosquito2.png"
+import mosquito3 from "./assets/photo/mosquito3.jpeg"
+
+/* IMG mapping */
+import mapping0 from "./assets/photo/mapping0.jpeg"
+import mapping1 from "./assets/photo/mapping1.jpeg"
+import mapping2 from "./assets/photo/mapping2.jpeg"
+import mapping3 from "./assets/photo/mapping3.jpeg"
 
 
 const data = {
@@ -126,7 +141,7 @@ const data = {
                 "alt": "photo borne arcade"
             },
             {
-                "src": borneArcade,
+                "src": borneArcade2,
                 "alt": "photo borne arcade"
             },
             {
@@ -171,7 +186,7 @@ const data = {
                 "alt": "photo borne arcade"
             },
             {
-                "src": borneArcade,
+                "src": borneArcade2,
                 "alt": "photo borne arcade"
             },
             {
@@ -253,12 +268,12 @@ const data = {
         "link": "https://muew.eu/",
         "img": [
             {
-                "src": muew0,
-                "alt": "logo muew"
+                "src": muew1,
+                "alt": "vue du site muew"
             },
             {
                 "src": muew0,
-                "alt": "logo muew"
+                "alt": "vue page entière muew"
             },
             {
                 "src": muew1,
@@ -303,16 +318,20 @@ const data = {
                 "alt": "logo Laly"
             },
             {
-                "src": artemis1,
-                "alt": "logo Laly"
+                "src": elementaris3,
+                "alt": "vue en 3D de l'exposition"
             },
             {
-                "src": "logoLaly.svg",
-                "alt": "logo Laly"
+                "src": idol,
+                "alt": "affiche de l'evenement"
             },
             {
-                "src": "logoLaly.svg",
-                "alt": "logo Laly"
+                "src": artemis2,
+                "alt": "publication instagram"
+            },
+            {
+                "src": elementaris,
+                "alt": "affiche de l'oeuvre elementaris"
             }
         ],
         "conclusion": "Ayant une double casquette, cheffe de projet et développeuse, j’ai pu suivre l’avancée de la maquette et communiquer directement avec les graphistes sur ce qui est faisable et rapide à faire et ce qui ne l’est pas. Je trouve que c’est très important d’inclure tous les aspects d’un projet et de ne pas juste faire ’sa partie’."
@@ -326,7 +345,7 @@ const data = {
         "roles": [
             "Développeuse web"
         ],
-        "description": "Afin de valoriser notre évènement MMIX (lien), nous avons fait un site web pour que toutes les informations soient accessibles facilement. Nous avions des contrainte de sobriété à respecter, ainsi que des normes d’accessibilités à prendre en compte. Je me suis chargée de son intégration depuis la maquette Figma qu’a fait les graphistes. Ce site devait respecter des normes d'accessibilités et de sobriété, ce que l'on a donc inclut dès sa conception.",
+        "description": "Afin de valoriser notre évènement MMIX, nous avons fait un site web pour que toutes les informations soient accessibles facilement. Nous avions des contrainte de sobriété à respecter, ainsi que des normes d’accessibilités à prendre en compte. Je me suis chargée de son intégration depuis la maquette Figma qu’a fait les graphistes. Ce site devait respecter des normes d'accessibilités et de sobriété, ce que l'on a donc inclut dès sa conception.",
         "tools": [
             "HTML",
             "CSS",
@@ -337,23 +356,28 @@ const data = {
             "Développement web",
             "Rédaction"
         ],
+        "link": "https://web.archive.org/web/20230327013916/https://mmixchambery.fr/",
         "img": [
             {
-                "src": import("./assets/logoLaly.svg"),
-                "alt": "logo Laly"
+                "src": mmix,
+                "alt": "interface live mmix"
             },
             {
-                "src": import("./assets/logoLaly.svg"),
-                "alt": "logo Laly"
+                "src": mmix,
+                "alt": "interface live mmix"
             },
             {
-                "src": import("./assets/logoLaly.svg"),
-                "alt": "logo Laly"
+                "src": mmix2,
+                "alt": "affiche evenement mmix"
             },
             {
-                "src": import("./assets/logoLaly.svg"),
-                "alt": "logo Laly"
-            }
+                "src": mmix3,
+                "alt": "interface live mmix"
+            },
+            {
+                "src": mmix4,
+                "alt": "affiche evenement mmix"
+            },
         ],
         "conclusion": "Je suis très fière de ce site et je l’aime particulièrement car j’ai mis beaucoup d’effort dans cet évènement, et j’ai l’impression d’avoir beaucoup appris grâce à lui en travail multitâche."
     },
@@ -447,6 +471,77 @@ const data = {
         ],
         "conclusion": "Suivre un projet dans son ensemble est très enrichissant mais en comprendre chaque partie est primordial, donc je me suis beaucoup investie à chaque étape et je suis très fière du résultat !",
         "on_top": true
+    },
+    "mosquito": {
+        "title": "Borne connectée anti-moustique",
+        "short_description": "Conception d’une borne anti-moustique connectée",
+        "category": "Perso",
+        "date": "Été 2023 + Février 2024",
+        "class": "Projet personnel",
+        "roles":
+            ["Bricoleuse du dimanche", "Développeuse web", "Développeuse IoT"],
+        "description": "Pour répondre à un problème de surpopulation de moustique à la Motte-Servolex, nous avons eu l’idée avec Serge Helies et Guillaume Dumoulin de recréer « fait maison » un piège à moustiques vu sur internet. Il s’agit d’une boîte qui aspire les moustiques en diffusant des hormones pour les attirer afin de les piéger dans un filet. Nous avons donc voulu la refaire à petit budget pour les habitants, tout en récupérant des composants informatiques que les personnes jettent en changeant de pc ou pour d’autres raisons.",
+        "tools":
+            ["Arduino", "Composants inutilisés", "API"],
+        "skill":
+            ["IoT", "Conception d’un produit en plusieurs quantités", "Communication de données "],
+        "img": [
+            {
+                "src": mosquito1,
+                "alt": "apperçu de la boite anti-moutique"
+            },
+            {
+                "src": mosquito1,
+                "alt": "apperçu de la boite anti-moutique"
+            },
+            {
+                "src": mosquito2,
+                "alt": "développement de la boite anti-moutique"
+            },
+            {
+                "src": mosquito3,
+                "alt": "plan de la boite anti-moutique"
+            },
+            {
+                "src": mosquito0,
+                "alt": "développement de la boite anti-moutique"
+            }
+        ],
+        "conclusion": "En faisant un projet en dehors de l’école, j’ai pu apprendre différentes façons de faire mais aussi répondre à un vrai besoin. Je savais que je le faisais pour moi et non juste pour une note, ce qui est plus motivant et encore plus quand on est plusieurs dessus ! Ce projet m’a redonné confiance en mes capacités et je sais qu’en me donnant les chances d’y arriver je sais mener à bien de vrais projets."
+    },
+    "mapping": {
+        "title": "Mapping vidéo interactif",
+        "category": "Perso",
+        "date": "Février 2024",
+        "class": "Projet personnel",
+        "short_description": "Conception d’un jeu interactif pour la Nuit de la création",
+        "roles": ["Développeuse", "Conceptrice"],
+        "description": "La ville de la Motte-Servolex organise tous les ans la “Nuit de la création” dédiée à la découverte de l’art contemporain, en déambulant dans la ville, à travers des œuvres à la fois originales et interactives. Pour la prochaine édition, la conciergerie (galerie d’art de la ville) voudrait attirer un public plus jeune et rendre accessible l’art par le jeu, tout en valorisant le travail d’étudiants. Mon projet permettrait d’utiliser des techniques inconnues pour le grand public en les rendant accessible à travers un jeu qui leur sera familier. Pour le moment, j’ai d’abord voulu prendre en main l’outil c’est pour cela que le jeu n’est pas en rapport avec l’art contemporain, ce sera la prochaine étape du projet.",
+        "tools": ["Javascript", "Arduino", "WebSockets"],
+        "skill": ["Transmission de positions avec les WebSockets", "Canva en JS", "Leap Motion", "Jeu vidéo"],
+        "img": [
+            {
+                "src": mapping1,
+                "alt": ""
+            },
+            {
+                "src": mapping0,
+                "alt": "installation des boutons de jeu"
+            },
+            {
+                "src": mapping1,
+                "alt": "montage du mapping"
+            },
+            {
+                "src": mapping2,
+                "alt": "apperçu du jeu"
+            },
+            {
+                "src": mapping3,
+                "alt": "logiciel de régie"
+            }
+        ],
+        "conclusion": "Grâce à ce projet, j'ai appris à faire évoluer un jeu existant en l’adaptant avec des nouvelles techniques d’interaction (buzzer Arduino + Leap Motion). J'ai aussi pu mettre en application des notions vu en cours afin de mieux les comprendre et me les approprier, ce qui est une bonne manière d'intégrer réellement les notions."
     }
 };
 

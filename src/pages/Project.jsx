@@ -28,17 +28,23 @@ function Project() {
                 </div>
 
                 <div className="w-2/3 m-4">
-                    <p>{projectData.description}</p>
+                    <p className="text-justify">{projectData.description}</p>
+                    {projectData.link ? (
+                        <a href={projectData.link} target="_blank" className="mt-8 bg-vertt p-2 rounded-xl text-black flex w-fit"><b className="pr-4">Lien vers le projet</b><img src={link} alt="lien vers le site"></img> </a>
+                    ) : null
+                    }
 
-                    <div>
-                        <p className="mt-4 mb-4 decoration-terracota text-end"><span className=" bg-terracota p-2 rounded-xl text-beigee"><b>Année :</b> {projectData.date} ( {projectData.class} )</span> </p>
-                        <p className="w-full mb-4 decoration-vertt text-end"><span className=" bg-vertt p-2 rounded-xl text-black"><b>Rôles : </b> {projectData.roles.join(" - ")}</span></p>
-                        <h5 className="mb-4"><b><u className="decoration-terracota">Outils :</u></b></h5>
-                        <ul className="ml-8 mb-4 list-disc">{projectData.tools.map((tool) => (<li className="list-disc" key={tool}> {tool}</li>))}</ul>
-                        {projectData.link ? (
-                            <a href={projectData.link} target="_blank" className=" bg-vertt p-2 rounded-xl text-black flex w-fit"><b className="pr-4">Lien vers le projet</b><img src={link} alt="lien vers le site"></img> </a>
-                        ) : null
-                        }
+
+                    <div className="flex mt-8">
+                        <div className="w-1/2">
+                            <h5 className="mb-4"><b><u className="decoration-terracota">Outils :</u></b></h5>
+                            <ul className="ml-8 mb-4 list-disc">{projectData.tools.map((tool) => (<li className="list-disc" key={tool}> {tool}</li>))}</ul>
+
+                        </div>
+                        <div className="w-1/2">
+                            <p className="mt-4 mb-4 decoration-terracota text-end"><span className=" bg-terracota p-2 rounded-xl text-beigee"><b>Année :</b> {projectData.date} ( {projectData.class} )</span> </p>
+                            <p className="w-full mb-4 decoration-vertt text-end"><span className=" bg-vertt p-2 rounded-xl text-black"><b>Rôles : </b> {projectData.roles.join(" - ")}</span></p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -77,7 +83,7 @@ function Project() {
 
             <div className="flex flex-col wrap">
                 <h5 className="stroke titreProject">Conclusion :</h5>
-                <p className="mx-64 mt-4">{projectData.conclusion}</p>
+                <p className="mx-64 mt-4 text-justify">{projectData.conclusion}</p>
             </div>
         </>
     );
