@@ -33,11 +33,13 @@ function CarrousselProjects() {
                     {Object.entries(data).map(([idProject, project]) => {
                         if (project.on_top === true) {
                             return (
-                                <a className='cardItem' href={`/projet/${idProject}`}>
-                                    <li key={idProject} className="cardLi bg-terracota p-1 rounded-lg m-4 text-white">
-                                        lien {project.title} / {project.skill.join(" - ")}
-                                    </li>
-                                </a>
+                                <>
+                                    <a className='cardItem' href={`/projet/${idProject}`}>
+                                        <li key={idProject} className="cardLi bg-terracota p-1 rounded-lg m-4 text-white">
+                                            lien {project.title} / {project.skill.join(" - ")}
+                                        </li>
+                                    </a>
+                                </>
                             );
                         }
                     })}

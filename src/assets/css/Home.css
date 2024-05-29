@@ -212,6 +212,30 @@ u {
   }
 }
 
+@keyframes slide-17 {
+  to {
+    transform: translateX(2px)
+  }
+}
+
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 500ms;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 500ms;
+}
+
 
 @media screen and (max-width:890px) {
   .homePart2 {
