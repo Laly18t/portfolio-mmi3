@@ -2,7 +2,6 @@ import './App.css'
 import './assets/css/Header.css';
 import './assets/css/Footer.css';
 import './assets/css/Home.css';
-import './assets/css/AllProjects.css';
 import './assets/css/Project.css';
 
 import NotFound from './pages/NotFound';

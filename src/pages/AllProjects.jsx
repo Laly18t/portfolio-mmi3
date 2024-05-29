@@ -31,27 +31,26 @@ function AllProjects() {
                     })}
                 </div>
                 <div className="flex">
-                    <ul className={` ${selectedTab.color} text-black rounded-bl p-2 grid grid-cols-4 gap-3 w-full justify-items-center`}>
+                    <ul className={` ${selectedTab.color} text-black rounded-bl p-4 flex flex-wrap  w-full h-full justify-items-center`}>
                         {Object.entries(data).map(([idProject, project]) => {
                             if (selectedTab.items.some(r => project.skill.includes(r))) {
-                                console.log("data :", project.img[0].src)
                                 return (
-                                    <a className="allProjectsLi w-60 m-2 bg-beigee p-4 rounded h-60" href={`/projet/${idProject}`}>
-                                        <li className="flex flex-col h-full justify-between" key={idProject}>
+                                    <a className="flex !w-60 m-2 bg-beigee p-4 rounded !h-60" href={`/projet/${idProject}`}>
+                                        <li className="flex flex-col h-full justify-between w-full" key={idProject}>
                                             <u>LIEN</u> {project.title}
                                             <img className="w-16 m-auto" src={project.img[0].src} alt={project.img[0].alt}></img>
-                                            <p className="relative bottom-0 bg-terracota p-2 rounded-2xl text-beigee">{project.date}</p>
+                                            <p className="relative bottom-0 bg-terracota p-2 rounded-2xl text-beigee w-fit m-auto">{project.date}</p>
                                         </li>
                                     </a>
                                 );
 
                             } else if (selectedTab.items.some(r => project.category == "Perso")) {
                                 return (
-                                    <a className="allProjectsLi w-60 m-2 bg-beigee p-4 rounded h-60" href={`/projet/${idProject}`}>
+                                    <a className="flex !w-60 m-2 bg-beigee p-4 rounded !h-60" href={`/projet/${idProject}`}>
                                         <li className="flex flex-col h-full justify-between" key={idProject}>
                                             <u>LIEN</u> {project.title}
                                             <img className="w-16 m-auto" src={project.img[0].src} alt={project.img[0].alt}></img>
-                                            <p className="relative bottom-0 bg-terracota p-2 rounded-2xl text-beigee">{project.date}</p>
+                                            <p className="relative bottom-0 bg-terracota p-2 rounded-2xl text-beigee w-full">{project.date}</p>
                                         </li>
                                     </a>
                                 );
