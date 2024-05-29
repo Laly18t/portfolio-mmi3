@@ -177,7 +177,7 @@ function Home() {
                             <img src={homeBUT}></img>
                             <div>
                                 <p className="text-2xl"><b className="text-5xl">BUT MMI</b> (Métiers du Multimédia et de l’Internet)</p>
-                                <p className="text-center text-xl">- Spécialité développement web -</p>
+                                <p className="text-center text-xl mt-4">- Spécialité développement web -</p>
                             </div>
                         </div>
                         <p className="mt-8 text-center text-xl w-2/3 m-auto ">Grâce à cette formation, j’ai pu découvrir de nombreux domaines du multimédia comme l’audiovisuel, la communication, le graphisme et le développement web.
