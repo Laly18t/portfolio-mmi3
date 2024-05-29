@@ -8,8 +8,8 @@ function AllProjects() {
     const tabs = [
         { title: 'Développement web', items: ['Développement web', 'Électronique', 'Intégration', 'Développement de jeux vidéo'], color: 'bg-vertt', text: 'text-black' },
         { title: 'Gestion de projet', items: ['Gestion de projet'], color: 'bg-terracota', text: 'text-beigee' },
-        { title: 'Multimédia', items: ['Communication', 'Rédaction', 'Conception', 'Graphisme', 'Audiovisuel'], color: 'bg-vertt', text: 'text-black' },
-        { title: 'Autres', items: ['Perso'], color: 'bg-terracota', text: 'text-beigee' },
+        { title: 'Multimédia', items: ['Communication', 'Rédaction', 'Conception', 'Graphisme', 'Audiovisuel'], color: 'bg-verttClair', text: 'text-black' },
+        { title: 'Autres', items: ['Perso'], color: 'bg-terracotaClair', text: 'text-black' },
     ];
 
     const [selectedTab, setSelectedTab] = useState(tabs[0]);

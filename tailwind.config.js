@@ -8,7 +8,9 @@ export default {
     extend: {},
     colors: {
       vertt: '#9FC4AD',
+      verttClair: '#C0D8C9',
       terracota: '#D18861',
+      terracotaClair: '#DFAC90',
       beigee: '#FFFAF1',
       white: '#FFFFFF'
     }

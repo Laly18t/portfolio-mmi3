@@ -29,7 +29,7 @@ function CarrousselProjects() {
             </div>
             <div className="cardScroll pt-8">
                 <p className="text-2xl">Découvrez mes projets réalisés en cours ou en dehors de l’école !</p>
-                <ul className="flex cardContainer overflow-x-scroll">
+                <ul className="flex items-center cardContainer overflow-x-scroll">
                     {Object.entries(data).map(([idProject, project]) => {
                         if (project.on_top === true) {
                             return (
@@ -37,6 +37,7 @@ function CarrousselProjects() {
                                     <a className='cardItem' href={`/projet/${idProject}`}>
                                         <li key={idProject} className="cardLi bg-terracota p-1 rounded-lg m-4 text-white">
                                             lien {project.title} / {project.skill.join(" - ")}
+                                            <img className="w-16 m-auto" src={project.img[0].src} alt={project.img[0].alt}></img>
                                         </li>
                                     </a>
                                 </>

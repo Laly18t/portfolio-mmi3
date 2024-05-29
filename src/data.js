@@ -24,6 +24,7 @@ import elementaris3 from "./assets/photo/elementaris3.png"
 import artemisLogo from "./assets/photo/artemisLogo.png"
 import artemis1 from "./assets/photo/artemis1.png"
 import artemis2 from "./assets/photo/artemis2.png"
+import artemis3 from "./assets/photo/artemis3.png"
 import idol from "./assets/photo/idol.jpeg"
 
 /* IMG MUEW */
@@ -336,7 +337,7 @@ const data = {
                 "alt": "logo Art'émis"
             },
             {
-                "src": elementaris3,
+                "src": artemis3,
                 "alt": "vue en 3D de l'exposition"
             },
             {
