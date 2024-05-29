@@ -45,7 +45,8 @@ u {
 
 .titreHomePart5,
 .titreHomePart6,
-.titreProject {
+.titreProject,
+.titre {
   -webkit-text-stroke: 1px var(--color-terracota);
 }
 

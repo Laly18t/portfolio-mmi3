@@ -15,7 +15,7 @@ function Footer() {
                     </nav>
                     <img className="gifLaly" src={gif}></img>
                 </div>
-                <p className="text-center pb-1">Fait avec ❤️ par Laly <b className="text-terracota">|</b> <a href="/">Mentions Légales</a></p>
+                <p className="text-center pb-1">Fait avec ❤️ par Laly <b className="text-terracota">|</b> <a href="/mentions-legales">Mentions Légales</a></p>
             </footer>
         </div>
     );
