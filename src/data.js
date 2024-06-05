@@ -57,6 +57,13 @@ import tagaday1 from "./assets/photo/tagaday1.png"
 import tagaday2 from "./assets/photo/tagaday2.png"
 import tagaday3 from "./assets/photo/tagaday3.png"
 
+/* IMG Serre connectée */
+// import serre0 from "./assets/photo/serre0.png"
+import serre1 from "./assets/photo/serre1.png"
+import serre2 from "./assets/photo/serre2.png"
+import serre3 from "./assets/photo/serre3.png"
+import serre4 from "./assets/photo/serre4.png"
+
 const data = {
     "mmix": {
         "title": "MMIX - le talkshow de passionnés",
@@ -631,6 +638,40 @@ const data = {
             }
         ],
         "conclusion": "Ce projet a été très enrichissant car on sait désormais comment créer sa start-up et savoir si son projet est viable ! C’est une compétence importante pour notre avenir afin d’avoir toutes les cartes en main pour faire de bons choix."
+    },
+    "serre": {
+        "title": "Serre connectée",
+        "short_description": "Création d’une serre automatisée et connectée",
+        "category": "Projet étudiant",
+        "date": "Sept. 2023 - Mai 2024",
+        "class": "MMI3",
+        "roles": ["Développeuse", "Conceptrice", "Bricoleuse"],
+        "description": "Dans le cadre de notre projet de fin d’études, nous avons décidé de créer une serre connectée. Nous avons donc dû réfléchir à tous les aspects de la serre, de la conception à la réalisation. Nous avons dû faire des recherches sur les plantes, les capteurs, les systèmes d’arrosage, etc. Nous avons aussi dû faire des recherches sur les différentes technologies que nous allions utiliser pour rendre notre serre connectée. Nous avons donc utilisé des capteurs pour mesurer l’humidité, la température, la vitesse du vent, etc. Notre serre est aussi accompagné d'une application web qui nous permet de contrôler la serre à distance, en automatisant l'arrosage par exemple tout en laissant un mode manuel.",
+        "tools": ["Figma", "HTML", "React", "Arduino", "Capteurs", "API"],
+        "skill": ["Développement web", "Conception", "Bricolage", "IoT"],
+        "img": [
+            {
+                "src": serre1,
+                "alt": "logo tagaday"
+            },
+            {
+                "src": serre1,
+                "alt": "vue de l'application de la serre"
+            },
+            {
+                "src": serre2,
+                "alt": "câblage et test des capteurs"
+            },
+            {
+                "src": serre3,
+                "alt": "photo de la serre avec les capteurs"
+            },
+            {
+                "src": serre4,
+                "alt": "partie automatique de l'application"
+            }
+        ],
+        "conclusion": "Malgré la longueur du projet et le manque de connaissances en électronique, j’ai pu apprendre à faire un projet d'A à Z et à le mener à bien (presque !). Notre classe s'est beaucoup entraidé et nous avons pu nous dépasser grâce à cet effort commun. C’est très gratifiant de voir un projet se concrétiser et de pouvoir le montrer à des personnes qui ne connaissent pas le domaine."
     }
 };
 
