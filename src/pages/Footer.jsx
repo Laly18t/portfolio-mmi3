@@ -10,7 +10,7 @@ function Footer() {
                         <ul>
                             <li><a className="transition ease-out hover:ease-in duration-100 hover:underline" href="/">Accueil</a></li>
                             <li><a className="transition ease-out hover:ease-in duration-100 hover:underline" href="/projets">Mes Projets</a></li>
-                            <li><a className="transition ease-out hover:ease-in duration-100 hover:underline" href="/">Moi</a></li>
+                            <li><a className="transition ease-out hover:ease-in duration-100 hover:underline" href="/experiences">XP</a></li>
                         </ul>
                     </nav>
                     <img className="gifLaly" src={gif}></img>

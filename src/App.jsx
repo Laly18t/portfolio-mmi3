@@ -10,6 +10,7 @@ import Footer from './pages/Footer';
 import Home from './pages/Home';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Project from './pages/Project';
+import XP from './pages/XP';
 import AllProjects from './pages/AllProjects';
 import MentionsLegales from './pages/MentionsLegales';
 
@@ -23,6 +24,7 @@ function App() {
           <Route path="*" element={<NotFound />} />
           <Route path="/" element={<Home />} />
           <Route path="/projets" element={<AllProjects />} />
+          <Route path="/experiences" element={<XP />} />
           <Route path="/projet/:projectId" element={<Project />} />
           <Route path="/mentions-legales" element={<MentionsLegales />} />
         </Routes>
