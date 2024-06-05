@@ -32,6 +32,11 @@ u {
   -webkit-text-fill-color: transparent;
 }
 
+.titreXP {
+  font-size: 32px;
+  -webkit-text-stroke: 1.3px var(--color-vert);
+}
+
 
 .titreHomePart2,
 .titreHomePart3,
@@ -49,6 +54,8 @@ u {
 .titre {
   -webkit-text-stroke: 1px var(--color-terracota);
 }
+
+
 
 .homePart1 {
   margin: 8em auto 0 auto;

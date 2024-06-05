@@ -15,7 +15,7 @@
     li {
         position: relative;
         margin: 0;
-        padding-bottom: 1em;
+        padding-bottom: 3em;
         padding-left: 20px;
     }
 
@@ -34,7 +34,7 @@
         background-image: url('../rond.svg');
         position: absolute;
         left: 0;
-        top: 2px;
+        top: 5px;
         height: 12px;
         width: 12px;
     }
