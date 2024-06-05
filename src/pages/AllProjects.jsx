@@ -35,11 +35,11 @@ function AllProjects() {
                         {Object.entries(data).map(([idProject, project]) => {
                             if (selectedTab.items.some(r => project.skill.includes(r))) {
                                 return (
-                                    <a className="flex !w-60 m-2 bg-beigee p-4 rounded !h-60" href={`/projet/${idProject}`}>
+                                    <a className={`flex !w-60 m-2 bg-beigee p-4 rounded !h-60`} href={`/projet/${idProject}`}>
                                         <li className="flex flex-col h-full justify-between w-full" key={idProject}>
                                             <u>LIEN</u> {project.title}
                                             <img className="w-16 m-auto" src={project.img[0].src} alt={project.img[0].alt}></img>
-                                            <p className="relative bottom-0 bg-terracota p-2 rounded-2xl text-beigee w-fit m-auto">{project.date}</p>
+                                            <p className={`relative bottom-0 ${selectedTab.color} p-2 rounded-2xl ${selectedTab.text} w-fit m-auto`}>{project.date}</p>
                                         </li>
                                     </a>
                                 );
@@ -50,7 +50,7 @@ function AllProjects() {
                                         <li className="flex flex-col h-full justify-between" key={idProject}>
                                             <u>LIEN</u> {project.title}
                                             <img className="w-16 m-auto" src={project.img[0].src} alt={project.img[0].alt}></img>
-                                            <p className="relative bottom-0 bg-terracota p-2 rounded-2xl text-beigee w-full">{project.date}</p>
+                                            <p className={`relative bottom-0 ${selectedTab.color}  ${selectedTab.text} p-2 rounded-2xl  w-full`}>{project.date}</p>
                                         </li>
                                     </a>
                                 );

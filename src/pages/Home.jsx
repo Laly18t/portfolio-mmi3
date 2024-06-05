@@ -186,7 +186,7 @@ function Home() {
                 </div>
             </div>
 
-            <Contact />
+            <Contact id="contactLink" />
         </>
     );
 }

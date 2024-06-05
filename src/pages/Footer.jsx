@@ -9,8 +9,8 @@ function Footer() {
                     <nav>
                         <ul>
                             <li><a href="/">Accueil</a></li>
-                            <li><a href="../">Mes Projets</a></li>
-                            <li><a>Moi</a></li>
+                            <li><a href="/projets">Mes Projets</a></li>
+                            <li><a href="/">Moi</a></li>
                         </ul>
                     </nav>
                     <img className="gifLaly" src={gif}></img>
