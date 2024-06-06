@@ -178,8 +178,7 @@ const data = {
                 "alt": "interface du jeu"
             }
         ],
-        "conclusion": "Ce projet était très intéressant car on a appris à s’adapter à un vrai modèle physique, ce qu’on n’avait jamais fait auparavant.",
-        "on_top": true
+        "conclusion": "Ce projet était très intéressant car on a appris à s’adapter à un vrai modèle physique, ce qu’on n’avait jamais fait auparavant."
     },
     "pacMMI": {
         "title": "PacMMI",
@@ -446,8 +445,7 @@ const data = {
                 "alt": "logo Laly"
             }
         ],
-        "conclusion": "J’ai adoré concevoir ce projet, à travers son travail de recherche et sa conception graphique percutante. C’est pour cela qu’après l’avoir fini en pdf, je ne voulais pas le mettre de côté et ne plus le toucher. J’ai donc décidé de le transformer en site web, voici le lien vers la page ici.",
-        "on_top": true
+        "conclusion": "J’ai adoré concevoir ce projet, à travers son travail de recherche et sa conception graphique percutante. C’est pour cela qu’après l’avoir fini en pdf, je ne voulais pas le mettre de côté et ne plus le toucher. J’ai donc décidé de le transformer en site web, voici le lien vers la page ici."
     },
     "idol": {
         "title": "Exposition /iDol/",
@@ -495,8 +493,7 @@ const data = {
                 "alt": "vue en 3D de l'exposition"
             }
         ],
-        "conclusion": "Suivre un projet dans son ensemble est très enrichissant mais en comprendre chaque partie est primordial, donc je me suis beaucoup investie à chaque étape et je suis très fière du résultat !",
-        "on_top": true
+        "conclusion": "Suivre un projet dans son ensemble est très enrichissant mais en comprendre chaque partie est primordial, donc je me suis beaucoup investie à chaque étape et je suis très fière du résultat !"
     },
     "mosquito": {
         "title": "Borne connectée anti-moustique",
@@ -545,12 +542,12 @@ const data = {
         "roles": ["Développeuse", "Conceptrice"],
         "description": "La ville de la Motte-Servolex organise tous les ans la “Nuit de la création” dédiée à la découverte de l’art contemporain, en déambulant dans la ville, à travers des œuvres à la fois originales et interactives. Pour la prochaine édition, la conciergerie (galerie d’art de la ville) voudrait attirer un public plus jeune et rendre accessible l’art par le jeu, tout en valorisant le travail d’étudiants. Mon projet permettrait d’utiliser des techniques inconnues pour le grand public en les rendant accessible à travers un jeu qui leur sera familier. Pour le moment, j’ai d’abord voulu prendre en main l’outil c’est pour cela que le jeu n’est pas en rapport avec l’art contemporain, ce sera la prochaine étape du projet.",
         "tools": ["Javascript", "Arduino", "WebSockets"],
-        "skill": ["Transmission de positions avec les WebSockets", "Canva en JS", "Leap Motion", "Jeu vidéo"],
+        "skill": ["Développement web", "Leap Motion", "Jeu vidéo"],
         "link": "https://youtube.com/shorts/R7S01Bwt6Ko",
         "img": [
             {
                 "src": mappingShip,
-                "alt": ""
+                "alt": "icone du vaisseau spatial"
             },
             {
                 "src": mapping0,
@@ -569,7 +566,8 @@ const data = {
                 "alt": "logiciel de régie"
             }
         ],
-        "conclusion": "Grâce à ce projet, j'ai appris à faire évoluer un jeu existant en l’adaptant avec des nouvelles techniques d’interaction (buzzer Arduino + Leap Motion). J'ai aussi pu mettre en application des notions vu en cours afin de mieux les comprendre et me les approprier, ce qui est une bonne manière d'intégrer réellement les notions."
+        "conclusion": "Grâce à ce projet, j'ai appris à faire évoluer un jeu existant en l’adaptant avec des nouvelles techniques d’interaction (buzzer Arduino + Leap Motion). J'ai aussi pu mettre en application des notions vu en cours afin de mieux les comprendre et me les approprier, ce qui est une bonne manière d'intégrer réellement les notions.",
+        "on_top": true
     },
     "web_infographie": {
         "title": "Infographie interactive",

@@ -19,6 +19,11 @@ u {
   }
 }
 
+.strokeBlanc {
+  /* color: var(--color-bg); */
+  -webkit-text-stroke: 0.3px white;
+  -webkit-text-fill-color: transparent;
+}
 
 .stroke {
   /* color: var(--color-bg); */
@@ -311,24 +316,18 @@ u {
 
 .cardScroll {
   ul {
-    width: 100vh;
-    overflow-y: hidden;
 
     li:nth-child(1) {
       margin-left: 0;
     }
+
   }
 
-  .cardLi {
-    transition: 0.5s;
-    width: 300px !important;
-    height: 200px !important;
-  }
+}
 
-  .cardLi:hover {
-    transition: 0.5s;
-    background-color: var(--color-vert) !important;
-  }
+.cardLi:hover {
+  transition: 0.5s;
+  background-color: var(--color-vert) !important;
 }
 
 .bgHomePart5 {
