@@ -58,7 +58,7 @@ import tagaday2 from "./assets/photo/tagaday2.png"
 import tagaday3 from "./assets/photo/tagaday3.png"
 
 /* IMG Serre connectée */
-// import serre0 from "./assets/photo/serre0.png"
+import serre0 from "./assets/photo/serre0.svg"
 import serre1 from "./assets/photo/serre1.png"
 import serre2 from "./assets/photo/serre2.png"
 import serre3 from "./assets/photo/serre3.png"
@@ -651,8 +651,8 @@ const data = {
         "skill": ["Développement web", "Conception", "Bricolage", "IoT"],
         "img": [
             {
-                "src": serre1,
-                "alt": "logo tagaday"
+                "src": serre0,
+                "alt": "icone de plante"
             },
             {
                 "src": serre1,
