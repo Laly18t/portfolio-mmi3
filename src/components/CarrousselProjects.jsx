@@ -1,22 +1,22 @@
 import data from '../data';
 import Marquee from '../Marquee';
-import '../assets/css/marquee.css';
+// import '../assets/css/marquee.css';
 
-document.querySelectorAll('.cardItem').forEach((element) => {
-    // Générer un nombre aléatoire entre 5 et 15 (en secondes)
-    const randomSeconds = Math.floor(Math.random() * (15 - 5 + 1) + 5);
+// document.querySelectorAll('.cardItem').forEach((element) => {
+//     // Générer un nombre aléatoire entre 5 et 15 (en secondes)
+//     const randomSeconds = Math.floor(Math.random() * (15 - 5 + 1) + 5);
 
-    new Marquee({
-        el: element.querySelector('.cardItem'),
-        container: element,
-        destroyEl: false,
-        directLoad: true,
-        autoplay: true,
-        direction: 1,
-        timingAnimation: [1, 100], // 1 sec for 500px,
-        duration: randomSeconds
-    });
-})
+//     new Marquee({
+//         el: element.querySelector('.cardItem'),
+//         container: element,
+//         destroyEl: false,
+//         directLoad: true,
+//         autoplay: true,
+//         direction: 1,
+//         timingAnimation: [1, 100], // 1 sec for 500px,
+//         duration: randomSeconds
+//     });
+// })
 
 
 

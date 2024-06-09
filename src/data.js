@@ -1,5 +1,6 @@
 import logoLaly from "./assets/logoLaly.svg"
 
+
 /* IMG MMIX */
 import mmixLogo from "./assets/photo/mmixLogo.png"
 import mmix from "./assets/photo/mmix.png"
@@ -538,7 +539,6 @@ const data = {
         "category": "Perso",
         "date": "Février 2024",
         "class": "Projet personnel",
-        "short_description": "Conception d’un jeu interactif pour la Nuit de la création",
         "roles": ["Développeuse", "Conceptrice"],
         "description": "La ville de la Motte-Servolex organise tous les ans la “Nuit de la création” dédiée à la découverte de l’art contemporain, en déambulant dans la ville, à travers des œuvres à la fois originales et interactives. Pour la prochaine édition, la conciergerie (galerie d’art de la ville) voudrait attirer un public plus jeune et rendre accessible l’art par le jeu, tout en valorisant le travail d’étudiants. Mon projet permettrait d’utiliser des techniques inconnues pour le grand public en les rendant accessible à travers un jeu qui leur sera familier. Pour le moment, j’ai d’abord voulu prendre en main l’outil c’est pour cela que le jeu n’est pas en rapport avec l’art contemporain, ce sera la prochaine étape du projet.",
         "tools": ["Javascript", "Arduino", "WebSockets"],
@@ -670,6 +670,108 @@ const data = {
             }
         ],
         "conclusion": "Malgré la longueur du projet et le manque de connaissances en électronique, j’ai pu apprendre à faire un projet d'A à Z et à le mener à bien (presque !). Notre classe s'est beaucoup entraidé et nous avons pu nous dépasser grâce à cet effort commun. C’est très gratifiant de voir un projet se concrétiser et de pouvoir le montrer à des personnes qui ne connaissent pas le domaine."
+    },
+    "myrole_v2": {
+        "title": "MyRole - V2",
+        "short_description": "Alternance dans l'entreprise MyRole, une web-application de dématérialisation de gestion humaine dans le monde du cinéma",
+        "category": "Expérience professionnelle",
+        "date": "Sept. 2023 - juillet 2024",
+        "class": "MMI3",
+        "roles": ["Développeuse", "Cheffe de projet", "Intégratrice"],
+        "description": ["Notre 3e année étant en alternance, j'ai pu intégré l'entreprise MyRole, une start-up qui propose une web-application de dématérialisation de gestion humaine dans le monde du cinéma. Afin de découvrir l'entreprise, j'ai commencé par comprendre une fonctionnalité importante de l'outil, l'intégration de contrat." + `<br></br>` + 'BHUBHb'],
+        "tools": ["Twig", "HTML", "SQL", "BDD", "Notion", "Trello", "Discord", "Visual Studio Code"],
+        "skill": ["Développement web", "Intégration de contrat", "Gestion de données"],
+        "img": [
+            {
+                "src": serre0,
+                "alt": "icone de plante"
+            },
+            {
+                "src": serre1,
+                "alt": "vue de l'application de la serre"
+            },
+            {
+                "src": serre2,
+                "alt": "câblage et test des capteurs"
+            },
+            {
+                "src": serre3,
+                "alt": "photo de la serre avec les capteurs"
+            },
+            {
+                "src": serre4,
+                "alt": "partie automatique de l'application"
+            }
+        ],
+        "conclusion": "Malgré la longueur du projet et le manque de connaissances en électronique, j’ai pu apprendre à faire un projet d'A à Z et à le mener à bien (presque !). Notre classe s'est beaucoup entraidé et nous avons pu nous dépasser grâce à cet effort commun. C’est très gratifiant de voir un projet se concrétiser et de pouvoir le montrer à des personnes qui ne connaissent pas le domaine."
+    },
+    "myrole_v3_dev": {
+        "title": "MyRole - V3",
+        "short_description": "Alternance dans l'entreprise MyRole, une web-application de dématérialisation de gestion humaine dans le monde du cinéma",
+        "category": "Expérience professionnelle",
+        "date": "Sept. 2023 - juillet 2024",
+        "class": "MMI3",
+        "roles": ["Développeuse", "Cheffe de projet", "Intégratrice"],
+        "description": `Notre 3e année étant en alternance, j'ai pu intégré l'entreprise MyRole, une start- up qui propose une web- application de dématérialisation de gestion humaine dans le monde du cinéma.Afin de découvrir l'entreprise, j'ai commencé par comprendre une fonctionnalité importante de l'outil, l'intégration de contrat. < br > BHUBHb`,
+        "tools": ["Twig", "HTML", "SQL", "BDD", "Notion", "Trello", "Discord", "Visual Studio Code"],
+        "skill": ["Développement web", "Intégration de contrat", "Gestion de données"],
+        "img": [
+            {
+                "src": serre0,
+                "alt": "icone de plante"
+            },
+            {
+                "src": serre1,
+                "alt": "vue de l'application de la serre"
+            },
+            {
+                "src": serre2,
+                "alt": "câblage et test des capteurs"
+            },
+            {
+                "src": serre3,
+                "alt": "photo de la serre avec les capteurs"
+            },
+            {
+                "src": serre4,
+                "alt": "partie automatique de l'application"
+            }
+        ],
+        "conclusion": " "
+    },
+    "myrole_v3_gestionproj": {
+        "title": "Serre connectée",
+        "short_description": "Alternance dans l'entreprise MyRole, une web-application de dématérialisation de gestion humaine dans le monde du cinéma",
+        "category": "Projet étudiant",
+        "date": "Sept. 2023 - Mai 2024",
+        "class": "MMI3",
+        "roles": ["Développeuse", "Conceptrice", "Bricoleuse"],
+        "description": "Dans le cadre de notre projet de fin d’études, nous avons décidé de créer une serre connectée. Nous avons donc dû réfléchir à tous les aspects de la serre, de la conception à la réalisation. Nous avons dû faire des recherches sur les plantes, les capteurs, les systèmes d’arrosage, etc. Nous avons aussi dû faire des recherches sur les différentes technologies que nous allions utiliser pour rendre notre serre connectée. Nous avons donc utilisé des capteurs pour mesurer l’humidité, la température, la vitesse du vent, etc. Notre serre est aussi accompagné d'une application web qui nous permet de contrôler la serre à distance, en automatisant l'arrosage par exemple tout en laissant un mode manuel.",
+        "tools": ["Figma", "HTML", "React", "Arduino", "Capteurs", "API"],
+        "skill": ["Développement web", "Conception", "Bricolage", "IoT"],
+        "img": [
+            {
+                "src": serre0,
+                "alt": "icone de plante"
+            },
+            {
+                "src": serre1,
+                "alt": "vue de l'application de la serre"
+            },
+            {
+                "src": serre2,
+                "alt": "câblage et test des capteurs"
+            },
+            {
+                "src": serre3,
+                "alt": "photo de la serre avec les capteurs"
+            },
+            {
+                "src": serre4,
+                "alt": "partie automatique de l'application"
+            }
+        ],
+        "conclusion": " "
     }
 };
 
