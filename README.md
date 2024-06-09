@@ -1,8 +1,8 @@
 # Portfolio Laly
 
-Ce site a été fait par Laly Teissier afin de présenter son travail durant ses années de BUT MMI (2021-2024)
+Ce site a été fait par moi (Laly Teissier) afin de retracer et présenter mon travail durant mes années de BUT MMI (2021-2024).
 
-
+Accessible depuis l'url : www.laly.teissier.fr
 
 Initialisation :
 
@@ -11,5 +11,5 @@ Initialisation :
 
 Plugins :
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react]
 - [@tailwind]
