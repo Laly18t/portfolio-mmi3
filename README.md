@@ -11,5 +11,5 @@ Initialisation :
 
 Plugins :
 
-- [@vitejs/plugin-react]
-- [@tailwind]
+- @vitejs/plugin-react
+- @tailwind
