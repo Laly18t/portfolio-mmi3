@@ -21,6 +21,8 @@ body {
   scrollbar-width: thin;
   scrollbar-color: var(--color-vert);
   font-family: "Kirvy";
+
+  overflow-x: hidden;
 }
 
 /* body::-webkit-scrollbar {

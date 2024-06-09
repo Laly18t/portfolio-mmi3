@@ -14,7 +14,6 @@ function Project() {
     }
 
     const projectData = data[projectId];
-    { console.log("data >>", projectData) }
 
 
     return (
@@ -28,7 +27,7 @@ function Project() {
                 </div>
 
                 <div className="w-2/3 m-4">
-                    <p className="text-justify">{projectData.description}</p>
+                    <p className="text-justify" dangerouslySetInnerHTML={{ __html: projectData.description }}></p>
                     {projectData.link ? (
                         <a href={projectData.link} target="_blank" className="mt-8 bg-vertt p-2 rounded-xl text-black flex w-fit"><b className="pr-4">Lien vers le projet</b><img src={link} alt="lien vers le site"></img> </a>
                     ) : null
@@ -83,7 +82,7 @@ function Project() {
 
             <div className="flex flex-col wrap">
                 <h5 className="stroke titreProject">Conclusion :</h5>
-                <p className="mx-64 mt-4 text-justify">{projectData.conclusion}</p>
+                <p className="mx-64 mt-4 text-justify" dangerouslySetInnerHTML={{ __html: projectData.conclusion }}></p>
             </div>
         </>
     );
