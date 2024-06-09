@@ -675,12 +675,12 @@ const data = {
         "title": "MyRole - V2",
         "short_description": "Alternance dans l'entreprise MyRole, une web-application de dématérialisation de gestion humaine dans le monde du cinéma",
         "category": "Expérience professionnelle",
-        "date": "Sept. 2023 - juillet 2024",
+        "date": "Sept. 2023 - août 2024",
         "class": "MMI3",
         "roles": ["Développeuse", "Cheffe de projet", "Intégratrice"],
-        "description": ["Notre 3e année étant en alternance, j'ai pu intégré l'entreprise MyRole, une start-up qui propose une web-application de dématérialisation de gestion humaine dans le monde du cinéma. Afin de découvrir l'entreprise, j'ai commencé par comprendre une fonctionnalité importante de l'outil, l'intégration de contrat." + `<br></br>` + 'BHUBHb'],
+        "description": ["Notre 3e année étant en alternance, j'ai pu intégré l'entreprise MyRole, une start-up qui propose une web-application de dématérialisation de gestion humaine dans le monde du cinéma. Afin de découvrir l'entreprise, j'ai commencé par apprendre comment marche une fonctionnalité importante de l'outil, l'intégration de contrat. J'a donc intégré des contrats word en fichier html et twig afin d'avoir des variables et de pouvoir le générer sur les films. C'est un travail qui semble simple mais il demande beaucoup de vigueur car il ne doit pas y avoir d'erreur. Ce sont des fichiers importants pour les productions et ils ne doivent pas avoir de fautes. De plus, j'ai pu aller plus loin dans ce principe d'intégration en créant des fonctions réutilisables, comme les pieds de pages. Ewan, notre stagaire, l'a ensuite perfectionné et rendu plus simple d'utilisation." + `<br></br>` + 'BHUBHb'],
         "tools": ["Twig", "HTML", "SQL", "BDD", "Notion", "Trello", "Discord", "Visual Studio Code"],
-        "skill": ["Développement web", "Intégration de contrat", "Gestion de données"],
+        "skill": ["Développement web", "Intégration de contrat", "Gestion de données", "Création de fonctions réutilisables"],
         "img": [
             {
                 "src": serre0,
@@ -703,7 +703,7 @@ const data = {
                 "alt": "partie automatique de l'application"
             }
         ],
-        "conclusion": "Malgré la longueur du projet et le manque de connaissances en électronique, j’ai pu apprendre à faire un projet d'A à Z et à le mener à bien (presque !). Notre classe s'est beaucoup entraidé et nous avons pu nous dépasser grâce à cet effort commun. C’est très gratifiant de voir un projet se concrétiser et de pouvoir le montrer à des personnes qui ne connaissent pas le domaine."
+        "conclusion": "Grâce à ces intégrations, j'ai pu mieux comprendre les enjeux de notre application et comment les productions l'utilisent. J'ai pu aussi apprendre à travailler en équipe et à communiquer avec des personnes qui n'ont pas les mêmes compétences que moi. C'est très enrichissant et cela me permet de mieux comprendre notre v3 et de mieux expliquer les fonctionnalités."
     },
     "myrole_v3_dev": {
         "title": "MyRole - V3",
@@ -712,9 +712,9 @@ const data = {
         "date": "Sept. 2023 - juillet 2024",
         "class": "MMI3",
         "roles": ["Développeuse", "Cheffe de projet", "Intégratrice"],
-        "description": `Notre 3e année étant en alternance, j'ai pu intégré l'entreprise MyRole, une start- up qui propose une web- application de dématérialisation de gestion humaine dans le monde du cinéma.Afin de découvrir l'entreprise, j'ai commencé par comprendre une fonctionnalité importante de l'outil, l'intégration de contrat. < br > BHUBHb`,
+        "description": `Notre 3e année étant en alternance, j'ai pu intégré l'entreprise MyRole, une start-up qui propose une web-application de dématérialisation de gestion humaine dans le monde du cinéma. Après avoir pris en main la v2, on m'a intégré au développement de la v3. Il sagit d'une refonte totale de l'application, avec une nouvelle interface, un nouveau back-end et front-end et des fonctionnalités adaptés au besoin. J'ai pu travailler sur la partie front-end de l'application, en utilisant React pour la première fois sur un gros projet. C'est assez complexe de rentrer dans le projet car il y a beaucoup d'interdependances, un composant en appel un autre et demande d'autres ressources. Quand on n'a pas l'habitude de travailler sur des gros projets, le début est fastidieux. Mais j'ai pu apprendre beaucoup de choses et cela m'aide pour la partie gestion de projet, afin de m'adapter et mieux évaluer le découpage des tâches et l'estimation du temps.`,
         "tools": ["Twig", "HTML", "SQL", "BDD", "Notion", "Trello", "Discord", "Visual Studio Code"],
-        "skill": ["Développement web", "Intégration de contrat", "Gestion de données"],
+        "skill": ["Développement web", "Intégration de pages", "Gestion de données", "Gestion des routes de l'API", "Création/modification d'entités"],
         "img": [
             {
                 "src": serre0,
@@ -745,10 +745,10 @@ const data = {
         "category": "Projet étudiant",
         "date": "Sept. 2023 - Mai 2024",
         "class": "MMI3",
-        "roles": ["Développeuse", "Conceptrice", "Bricoleuse"],
-        "description": "Dans le cadre de notre projet de fin d’études, nous avons décidé de créer une serre connectée. Nous avons donc dû réfléchir à tous les aspects de la serre, de la conception à la réalisation. Nous avons dû faire des recherches sur les plantes, les capteurs, les systèmes d’arrosage, etc. Nous avons aussi dû faire des recherches sur les différentes technologies que nous allions utiliser pour rendre notre serre connectée. Nous avons donc utilisé des capteurs pour mesurer l’humidité, la température, la vitesse du vent, etc. Notre serre est aussi accompagné d'une application web qui nous permet de contrôler la serre à distance, en automatisant l'arrosage par exemple tout en laissant un mode manuel.",
-        "tools": ["Figma", "HTML", "React", "Arduino", "Capteurs", "API"],
-        "skill": ["Développement web", "Conception", "Bricolage", "IoT"],
+        "roles": ["Cheffe de projet", "Couteau-suisse"],
+        "description": "En tant de chef de projets, on est le tampon entre le client et l'équipe. A MyRole, je suis plutôt l'interface entre celui qui connait MyRole comme sa poche, Christophe, et les développeurs qui créent la v3 sans comprendre les fonctionnalités qu'ils développent. Ayant un bagage technique, je peux mieux traduire les besoins et découper clairement les tâches des développeurs. Je me charge donc de la rédaction des tâches, de leurs répartitions, de leurs suivis et de leurs validations. C'est un travail de longue haleine mais très enrichissant car on voit le projet évoluer (même si c'est parfois long) et on sait qu'on y a contribué.",
+        "tools": ["React", "GitLab", "API", "Notion", "Discord"],
+        "skill": ["Développement web", "Conception", "Gestion de projet", "Organisation", "Communication"],
         "img": [
             {
                 "src": serre0,
@@ -771,7 +771,7 @@ const data = {
                 "alt": "partie automatique de l'application"
             }
         ],
-        "conclusion": " "
+        "conclusion": "Après cette année à MyRole, j'ai l'imporession d'avoir appris énormement de chose très différente les unes des autres et de m'être adaptée à chaque situation. C'est très enrichissant et cela me permet de mieux comprendre les enjeux de chaque partie d'un projet. C'est très formateur et je me sens chauceuse d'avoir pu faire cette alternance."
     }
 };
 
