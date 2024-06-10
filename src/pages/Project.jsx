@@ -78,6 +78,11 @@ function Project() {
                         <p>{projectData.skill[3]}</p>
                     </div>
                 </div>
+                <div className="projectPart3 home wrap">
+                    <br></br>
+                    <h5 className="mb-4"><b><u className="decoration-terracota">Compétences du programme MMI3 :</u></b></h5>
+                    <ul className="ml-8 mb-4 list-disc">{projectData.competences_mmi.map((competences) => (<li className="list-disc" key={competences}> {competences}</li>))}</ul>
+                </div>
             </div>
 
             <div className="flex flex-col wrap">
