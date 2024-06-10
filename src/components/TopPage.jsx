@@ -24,7 +24,7 @@ function TopPage(page, text, titreText) {
             </>
         );
         img = (
-            <img className="w-full -mt-16" src={transition1}></img>
+            <img className="w-full sm:-mt-16" src={transition1}></img>
         );
     }
 

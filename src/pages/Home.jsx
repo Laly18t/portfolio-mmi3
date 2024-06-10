@@ -41,7 +41,7 @@ function Home() {
             <TopPage />
             <div className="homePart2 home relative wrap">
                 <h2 id="moiLink" className="titreHomePart2 stroke">Qui suis-je ?</h2>
-                <div className="flex w-full mt-56">
+                <div className="flex w-full md:mt-56">
                     <div className="w-2/3">
                         <p className="text-4xl mb-8">Teissier Laly - <b className="stroke">une rêveuse</b></p>
                         <p className="mb-4 text-2xl text-justify">Actuellement étudiante en MMI à l'IUT de Chambéry, je me spécialise dans le développement web et la gestion de projet. </p>
@@ -52,7 +52,7 @@ function Home() {
 
 
                     </div>
-                    <img src={photoLaly}></img>
+                    <img className="object-contain" src={photoLaly}></img>
                 </div>
 
             </div>
@@ -66,7 +66,7 @@ function Home() {
 
                     <div className="flex justify-center">
                         <img src={homeDossier}></img>
-                        <p className="p-4 text-5xl strokeTerracota text-center"> Gestion de projet</p>
+                        <p className="p-4 text-xl lg:text-5xl strokeTerracota text-center"> Gestion de projet</p>
                         <img src={homeDossier}></img>
                     </div>
                     <div>
@@ -76,7 +76,7 @@ function Home() {
                                 timeout={500}
                                 classNames="fade"
                             >
-                                <div className="part text-center text-2xl text-terracota underline decoration-wavy decoration-vertt">
+                                <div className="part text-center text-lg lg:text-2xl text-terracota underline decoration-wavy decoration-vertt">
                                     &gt; {words1[index]}
                                 </div>
                             </CSSTransition>
@@ -85,7 +85,7 @@ function Home() {
 
                     <div className="flex pt-8 justify-center">
                         <img src={homeSouris}></img>
-                        <p className="p-4 text-5xl strokeTerracota text-center">Développement web</p>
+                        <p className="p-4 text-xl lg:text-5xl strokeTerracota text-center">Développement web</p>
                         <img src={homeSouris}></img>
                     </div>
                     <div>
@@ -95,7 +95,7 @@ function Home() {
                                 timeout={500}
                                 classNames="fade"
                             >
-                                <div className="part text-center text-2xl text-terracota underline decoration-wavy decoration-vertt">
+                                <div className="part text-center text-lg lg:text-2xl text-terracota underline decoration-wavy decoration-vertt">
                                     &gt; {words2[index]}
                                 </div>
                             </CSSTransition>
@@ -104,7 +104,7 @@ function Home() {
 
                     <div className="flex pt-8 justify-center">
                         <img src={homeCouteauSuisse}></img>
-                        <p className="p-4 text-5xl strokeTerracota text-center">Multimédia</p>
+                        <p className="p-4 text-xl lg:text-5xl strokeTerracota text-center">Multimédia</p>
                         <img src={homeCouteauSuisse}></img>
                     </div>
                     <div>
@@ -114,7 +114,7 @@ function Home() {
                                 timeout={500}
                                 classNames="fade"
                             >
-                                <div className="part text-center text-2xl text-terracota  underline decoration-wavy decoration-vertt">
+                                <div className="part text-center text-lg lg:text-2xl text-terracota  underline decoration-wavy decoration-vertt">
                                     &gt; {words3[index]}
                                 </div>
                             </CSSTransition>
