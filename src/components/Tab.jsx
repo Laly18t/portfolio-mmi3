@@ -1,6 +1,7 @@
-import { useParams } from "react-router-dom";
 import { useState } from 'react';
 import data from '../data';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import React from "react";
 
 function Tab() {
     // let { projectId } = useParams();
@@ -38,7 +39,7 @@ function Tab() {
                                     <a className={`flex !w-60 m-2 bg-beigee p-4 rounded !h-60`} href={`/projet/${idProject}`}>
                                         <li className="flex flex-col h-full justify-between w-full" key={idProject}>
                                             <u>LIEN</u> {project.title}
-                                            <img className="w-16 m-auto" src={project.img[0].src} alt={project.img[0].alt}></img>
+                                            <LazyLoadImage className="w-16 m-auto" src={project.img[0].src} alt={project.img[0].alt} />
                                             <p className={`relative bottom-0 ${selectedTab.color} p-2 rounded-2xl ${selectedTab.text} w-fit m-auto`}>{project.date}</p>
                                         </li>
                                     </a>

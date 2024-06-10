@@ -4,7 +4,7 @@ import gif from "../assets/plant-cat.gif";
 function Footer() {
     return (
         <div className="divFooter w-full wrap">
-            <footer>
+            <footer aria-label="pied de page">
                 <div className="flex justify-between w-full">
                     <nav>
                         <ul>

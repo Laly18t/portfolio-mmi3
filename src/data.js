@@ -1,6 +1,5 @@
 import logoLaly from "./assets/logoLaly.svg"
 
-
 /* IMG MMIX */
 import mmixLogo from "./assets/photo/mmixLogo.png"
 import mmix from "./assets/photo/mmix.png"

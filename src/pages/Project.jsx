@@ -4,7 +4,7 @@ import TopPage from "../components/TopPage.jsx";
 import transition2 from "../assets/transitionHomePart3.svg";
 import sun from "../assets/sun.svg";
 import link from "../assets/external-link.svg";
-
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 function Project() {
     let { projectId } = useParams();
@@ -23,7 +23,7 @@ function Project() {
 
             <div className="flex wrap">
                 <div className="w-1/3 h-fit m-4 bg-vertt z-0 rounded">
-                    <img className="z-10 p-1 w-fit" src={projectData.img[1].src} alt={projectData.img[1].alt} />
+                    <LazyLoadImage className="z-10 p-1 w-fit" src={projectData.img[1].src} alt={projectData.img[1].alt} />
                 </div>
 
                 <div className="w-2/3 m-4">
@@ -49,13 +49,13 @@ function Project() {
             </div>
             <div className="flex wrap">
                 <div className="w-1/3 h-fit m-4 bg-terracota rounded">
-                    <img className="z-10 p-1 w-fit" src={projectData.img[2].src} alt={projectData.img[2].alt} />
+                    <LazyLoadImage className="z-10 p-1 w-fit" src={projectData.img[2].src} alt={projectData.img[2].alt} />
                 </div>
                 <div className="w-1/3 h-fit m-4 bg-vertt rounded">
-                    <img className="z-10 p-1 w-fit" src={projectData.img[3].src} alt={projectData.img[3].alt} />
+                    <LazyLoadImage className="z-10 p-1 w-fit" src={projectData.img[3].src} alt={projectData.img[3].alt} />
                 </div>
                 <div className="w-1/3 h-fit m-4 bg-terracota rounded">
-                    <img className="z-10 p-1 w-fit" src={projectData.img[4].src} alt={projectData.img[4].alt} />
+                    <LazyLoadImage className="z-10 p-1 w-fit" src={projectData.img[4].src} alt={projectData.img[4].alt} />
                 </div>
             </div>
 
