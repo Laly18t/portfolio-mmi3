@@ -20,17 +20,24 @@ function MentionsLegales() {
                 <br></br>
                 Crédits photo : Laly Teissier.
                 <br></br>
-                Hébergeur :
                 <br></br>
-                NOM
+
+                <strong>Hébergeur :</strong>
                 <br></br>
-                S.A.S au capital de --- €.
+                <strong>Contabo GmbH</strong>
                 <br></br>
-                Siège social : ----
+                Aschauer Strasse 32a
                 <br></br>
-                Tel : --- .
+                81549 Munich
                 <br></br>
-                www.
+                Germany
+                <br></br>
+
+                Email: info@contabo.com
+                <br></br>
+                Tel : +49 89 3564717 70
+                <br></br>
+                https://contabo.com/en/legal/impressum/
                 <br></br>
                 <br></br>
                 Réalisation du site internet :
