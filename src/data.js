@@ -115,7 +115,7 @@ const data = {
             "Communication",
             "Développement web"
         ],
-        "link": "https://web.archive.org/web/20230327013916/https://mmixchambery.fr/",
+        "link": "https://www.youtube.com/watch?v=FE_PB7mkwpY&t=1861s",
         "img": [
             {
                 "src": mmixLogo,
