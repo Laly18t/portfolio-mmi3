@@ -50,6 +50,11 @@ import mapping3 from "./assets/photo/mapping3.jpeg"
 
 /* IMG infographie */
 import infographie0 from "./assets/photo/infographie0.svg"
+import infographie_web_0 from "./assets/photo/infographie_web_0.png"
+import infographie_web_1 from "./assets/photo/infographie_web_1.png"
+import infographie_web_2 from "./assets/photo/infographie_web_2.png"
+import infographie_web_3 from "./assets/photo/infographie_web_3.png"
+
 
 /* IMG Tagaday */
 import tagaday0 from "./assets/photo/tagaday0.png"
@@ -606,20 +611,20 @@ const data = {
                 "alt": "caspule de café"
             },
             {
-                "src": mapping3,
-                "alt": "logiciel de régie"
+                "src": infographie_web_0,
+                "alt": "page d'accueil de l'infographie"
             },
             {
-                "src": mapping3,
-                "alt": "logiciel de régie"
+                "src": infographie_web_1,
+                "alt": "code de l'animation"
             },
             {
-                "src": mapping3,
-                "alt": "logiciel de régie"
+                "src": infographie_web_2,
+                "alt": "code de l'animation"
             },
             {
-                "src": mapping3,
-                "alt": "logiciel de régie"
+                "src": infographie_web_3,
+                "alt": "exemple d'animation"
             }
         ],
         "conclusion": "Avec cette infographie interactive, j’ai voulu sensibilisation sur un sujet tout en le rendant ludique : ici le développement n’est pas une finalité mais un moyen de mettre en valeur une idée/concept. J’ai pu faire l’apprentissage de l’intégration de méthode d’animation web et de leur logique, ce qui m’a permis d’aller plus loin sur l’aspect front-end du métier de développeur."
