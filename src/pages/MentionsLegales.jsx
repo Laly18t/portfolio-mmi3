@@ -10,8 +10,7 @@ function MentionsLegales() {
                 En vertu de l’article 6 de la loi n° 2004-575 du 21 juin 2004 pour la confiance dans l’économie numérique, il est précisé aux utilisateurs du site internet www.laly-teissier.fr l’identité des différents intervenants dans le cadre de sa réalisation et de son suivi :
                 <br></br>
                 <br></br>
-                Propriétaire du site :
-                <br></br>
+                <h2 className="text-xl">Propriétaire du site :</h2>
                 Contact : laly.teissier[at]gmail.com - 07 82 91 09 75
                 <br></br>
                 Adresse :
@@ -22,8 +21,7 @@ function MentionsLegales() {
                 <br></br>
                 <br></br>
 
-                <strong>Hébergeur :</strong>
-                <br></br>
+                <h2 className="text-xl">Hébergeur :</h2>
                 <strong>Contabo GmbH</strong>
                 <br></br>
                 Aschauer Strasse 32a
@@ -32,7 +30,6 @@ function MentionsLegales() {
                 <br></br>
                 Germany
                 <br></br>
-
                 Email: info@contabo.com
                 <br></br>
                 Tel : +49 89 3564717 70
@@ -40,8 +37,8 @@ function MentionsLegales() {
                 https://contabo.com/en/legal/impressum/
                 <br></br>
                 <br></br>
-                Réalisation du site internet :
-                <br></br>
+
+                <h2 className="text-xl">Réalisation du site internet :</h2>
                 Laly Teissier
                 <br></br>
 
