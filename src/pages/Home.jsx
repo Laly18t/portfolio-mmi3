@@ -66,7 +66,7 @@ function Home() {
 
                     <div className="flex justify-center">
                         <img src={homeDossier}></img>
-                        <p className="p-4 text-5xl strokeTerracota"> Gestion de projet</p>
+                        <p className="p-4 text-5xl strokeTerracota text-center"> Gestion de projet</p>
                         <img src={homeDossier}></img>
                     </div>
                     <div>
@@ -85,7 +85,7 @@ function Home() {
 
                     <div className="flex pt-8 justify-center">
                         <img src={homeSouris}></img>
-                        <p className="p-4 text-5xl strokeTerracota">Développement web</p>
+                        <p className="p-4 text-5xl strokeTerracota text-center">Développement web</p>
                         <img src={homeSouris}></img>
                     </div>
                     <div>
@@ -104,7 +104,7 @@ function Home() {
 
                     <div className="flex pt-8 justify-center">
                         <img src={homeCouteauSuisse}></img>
-                        <p className="p-4 text-5xl strokeTerracota">Multimédia</p>
+                        <p className="p-4 text-5xl strokeTerracota text-center">Multimédia</p>
                         <img src={homeCouteauSuisse}></img>
                     </div>
                     <div>

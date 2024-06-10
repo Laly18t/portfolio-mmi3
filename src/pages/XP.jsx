@@ -5,11 +5,11 @@ function XP() {
     return (
         <>
             <TopPage page="experiences" titreText="Mes expériences" text="Découvrez mon parcours dans le monde du multimédia" />
-            <div className='ml-24 mt-8 wrap timelineXP'>
+            <div className='lg:ml-24 mt-8 wrap timelineXP w-full'>
                 <ol>
-                    <li>
+                    <li className='w-fit pr-2'>
                         <p className="text-terracota">Septembre 2023 - juillet 2024</p>
-                        <p><span className='stroke titreXP'>Alternance</span> à <b>MyRole</b> -&gt; Web-application de dématéralisation des ressources humaines dans me monde du cinémas</p>
+                        <p><span className='stroke titreXP pr-4'>Alternance</span> à <b>MyRole</b> -&gt; Web-application de dématéralisation des ressources humaines dans le monde du cinéma</p>
                         <p>Suivi et gestion de projet du développement de la refonte de l'application</p>
                     </li>
                     <li>
