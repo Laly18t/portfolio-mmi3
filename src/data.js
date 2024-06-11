@@ -612,6 +612,7 @@ const data = {
         "category": "Perso",
         "date": "Février 2024",
         "class": "Projet personnel",
+        "link": "https://infographie.laly-teissier.fr/",
         "competences_mmi": ["Développer à l’aide d’un framework de développement côté client", "Développer des dispositifs interactifs sophistiqués", "Maîtriser l'hébergement et le déploiement d'applications", "Entreprendre : Piloter un produit, un service ou une équipe", "Entreprendre : Maitriser la qualité en projet web ou multimédia"],
         "roles": ["Développeuse web", "Graphiste"],
         "description": "En 2ème année de MMI, j’ai dû réaliser une infographie sur le sujet de mon choix. Cela m’a beaucoup plu et j’ai voulu donner une nouvelle dimension à cette infographie en la développant en web et en la rendant interactive. <br /><br /> En plus de sensibiliser sur un sujet qui m’intéresse, le café, je le rends ludique et immersif grâce aux interactions. J’ai pu me former sur l’utilisation de librairie d’animations et aller plus loin dans mon apprentissage du front-end grâce à ce projet. <br /><br /> Ce projet m’a permis de voir le développement web comme un outil permettant de mettre en valeur des idées en les rendant immersive.",
