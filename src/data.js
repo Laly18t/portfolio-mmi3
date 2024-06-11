@@ -214,7 +214,7 @@ const data = {
         "category": "Projet étudiant",
         "date": "Avril 2023",
         "class": "MMI2",
-        "competences_mmi": ["Intégrer, produire ou développer des interactions riches ou dispositifs interactifs", "Entreprendre : Piloter un produit, un service ou une équipe", "Entreprendre : Maitriser la qualité en projet web ou multimédia"],
+        "competences_mmi": ["Développer des dispositifs interactifs sophistiqués", "Entreprendre : Piloter un produit, un service ou une équipe", "Entreprendre : Maitriser la qualité en projet web ou multimédia"],
         "roles": [
             "Développeuse web"
         ],
@@ -260,7 +260,7 @@ const data = {
         "category": "Projet étudiant",
         "date": "Juin 2022",
         "class": "MMI1",
-        "competences_mmi": ["Intégrer, produire ou développer des interactions riches ou dispositifs interactifs", "Entreprendre : Piloter un produit, un service ou une équipe", "Entreprendre : Maitriser la qualité en projet web ou multimédia"],
+        "competences_mmi": ["Développer des dispositifs interactifs sophistiqués", "Entreprendre : Piloter un produit, un service ou une équipe", "Entreprendre : Maitriser la qualité en projet web ou multimédia"],
         "roles": [
             "Développeuse web",
             "Communicante"
@@ -306,7 +306,7 @@ const data = {
         "category": "Projet étudiant",
         "date": "Janvier 2023",
         "class": "MMI2",
-        "competences_mmi": ["Produire des pages et applications web responsives", "Mettre en place ou développer un back office", "Optimiser une application web en référencement et temps de chargement", "Configurer une solution d’hébergement adaptée aux besoins", "Intégrer, produire ou développer des interactions riches ou dispositifs interactifs", "Entreprendre : Maitriser la qualité en projet web ou multimédia"],
+        "competences_mmi": ["Maîtriser l'hébergement et le déploiement d'applications", "Entreprendre : Maitriser la qualité en projet web ou multimédia"],
         "roles": [
             "Développeuse web"
         ],
@@ -353,7 +353,7 @@ const data = {
         "category": "Projet étudiant",
         "date": "Avril 2022",
         "class": "MMI1",
-        "competences_mmi": ["Produire des pages et applications web responsives", "Intégrer, produire ou développer des interactions riches ou dispositifs interactifs", "Entreprendre : Piloter un produit, un service ou une équipe", "Entreprendre : Maitriser la qualité en projet web ou multimédia"],
+        "competences_mmi": ["Entreprendre : Piloter un produit, un service ou une équipe", "Entreprendre : Maitriser la qualité en projet web ou multimédia"],
         "roles": [
             "Développeuse web"
         ],
@@ -399,7 +399,7 @@ const data = {
         "category": "Projet étudiant",
         "date": "Janvier 2023",
         "class": "MMI2",
-        "competences_mmi": ["Produire des pages et applications web responsives", "Intégrer, produire ou développer des interactions riches ou dispositifs interactifs", "Optimiser une application web en référencement et temps de chargement", "Configurer une solution d’hébergement adaptée aux besoins", "Entreprendre : Piloter un produit, un service ou une équipe", "Entreprendre : Maitriser la qualité en projet web ou multimédia"],
+        "competences_mmi": ["Maîtriser l'hébergement et le déploiement d'applications", "Entreprendre : Piloter un produit, un service ou une équipe", "Entreprendre : Maitriser la qualité en projet web ou multimédia"],
         "roles": [
             "Développeuse web"
         ],
@@ -537,14 +537,14 @@ const data = {
         "category": "Perso",
         "date": "Été 2023 + Février 2024",
         "class": "Projet personnel",
-        "competences_mmi": ["Concevoir un projet d’entreprise innovante", "Intégrer, produire ou développer des interactions riches ou dispositifs interactifs", "Entreprendre : Piloter un produit, un service ou une équipe", "Entreprendre : Maitriser la qualité en projet web ou multimédia"],
+        "competences_mmi": ["Développer des dispositifs interactifs sophistiqués", "Entreprendre : Concevoir un projet d’entreprise innovante", "Entreprendre : Piloter un produit, un service ou une équipe", "Entreprendre : Maitriser la qualité en projet web ou multimédia"],
         "roles":
             ["Bricoleuse du dimanche", "Développeuse web", "Développeuse IoT"],
         "description": "Pour répondre à un problème de surpopulation de moustique à la Motte-Servolex, nous avons eu l’idée avec Serge Helies et Guillaume Dumoulin de recréer « fait maison » un piège à moustiques vu sur internet. <br /><br /> Il s’agit d’une boîte qui aspire les moustiques en diffusant des hormones pour les attirer afin de les piéger dans un filet. Nous avons donc voulu la refaire à petit budget pour les habitants, tout en récupérant des composants informatiques que les personnes jettent en changeant de pc ou pour d’autres raisons. <br /><br /> Nous avons donc fait un prototype de la boîte, et j’ai développé une mini application pour pouvoir communiquer les données de la boîte à distance.",
         "tools":
             ["Arduino", "Composants inutilisés", "API"],
         "skill":
-            ["IoT", "Conception d’un produit en plusieurs quantités", "Communication de données "],
+            ["IoT", "Conception d’un produit en plusieurs quantités", "Communication de données ", "Revalorisation de déchets"],
         "img": [
             {
                 "src": mosquito,
@@ -574,7 +574,7 @@ const data = {
         "short_description": "Conception d’un jeu interactif pour la Nuit de la création",
         "category": "Perso",
         "date": "Février 2024",
-        "competences_mmi": ["Concevoir un projet d’entreprise innovante", "Intégrer, produire ou développer des interactions riches ou dispositifs interactifs", "Entreprendre : Piloter un produit, un service ou une équipe", "Entreprendre : Maitriser la qualité en projet web ou multimédia"],
+        "competences_mmi": ["Développer des dispositifs interactifs sophistiqués", "Entreprendre : Concevoir un projet d’entreprise innovante", "Entreprendre : Piloter un produit, un service ou une équipe", "Entreprendre : Maitriser la qualité en projet web ou multimédia"],
         "class": "Projet personnel",
         "roles": ["Développeuse", "Conceptrice"],
         "description": "La ville de la Motte-Servolex organise tous les ans la “Nuit de la création” dédiée à la découverte de l’art contemporain, en déambulant dans la ville, à travers des œuvres à la fois originales et interactives. Pour la prochaine édition, la conciergerie (galerie d’art de la ville) voudrait attirer un public plus jeune et rendre accessible l’art par le jeu, tout en valorisant le travail d’étudiants. <br /><br /> Mon projet permettrait d’utiliser des techniques inconnues pour le grand public en les rendant accessible à travers un jeu qui leur sera familier. <br /><br /> Pour le moment, j’ai d’abord voulu prendre en main l’outil c’est pour cela que le jeu n’est pas en rapport avec l’art contemporain, ce sera la prochaine étape du projet.",
@@ -612,11 +612,11 @@ const data = {
         "category": "Perso",
         "date": "Février 2024",
         "class": "Projet personnel",
-        "competences_mmi": ["Intégrer, produire ou développer des interactions riches ou dispositifs interactifs", "Configurer une solution d’hébergement adaptée aux besoins", "Entreprendre : Piloter un produit, un service ou une équipe", "Entreprendre : Maitriser la qualité en projet web ou multimédia"],
+        "competences_mmi": ["Développer à l’aide d’un framework de développement côté client", "Développer des dispositifs interactifs sophistiqués", "Maîtriser l'hébergement et le déploiement d'applications", "Entreprendre : Piloter un produit, un service ou une équipe", "Entreprendre : Maitriser la qualité en projet web ou multimédia"],
         "roles": ["Développeuse web", "Graphiste"],
         "description": "En 2ème année de MMI, j’ai dû réaliser une infographie sur le sujet de mon choix. Cela m’a beaucoup plu et j’ai voulu donner une nouvelle dimension à cette infographie en la développant en web et en la rendant interactive. <br /><br /> En plus de sensibiliser sur un sujet qui m’intéresse, le café, je le rends ludique et immersif grâce aux interactions. J’ai pu me former sur l’utilisation de librairie d’animations et aller plus loin dans mon apprentissage du front-end grâce à ce projet. <br /><br /> Ce projet m’a permis de voir le développement web comme un outil permettant de mettre en valeur des idées en les rendant immersive.",
         "tools": ["Javascript", "librairie GSAP", "Figma"],
-        "skill": ["Apprentissage de l’utilisation de la librairie GSAP", "Développement Front - end", "Conception et rédaction d’une infographie"],
+        "skill": ["Apprentissage de l’utilisation de la librairie GSAP", "Développement Front - end", "Conception et rédaction d’une infographie", "Framework agnostique"],
         "img": [
             {
                 "src": infographie0,
@@ -647,7 +647,7 @@ const data = {
         "category": "Projet étudiant",
         "date": "Décembre 2023",
         "class": "MMI2",
-        "competences_mmi": ["Concevoir un projet d’entreprise innovante", "Défendre un projet de manière concaicante"],
+        "competences_mmi": ["Entreprendre : Concevoir un projet d’entreprise innovante", "Entreprendre : Défendre un projet de manière convaincante"],
         "roles": ["Communicante", "Conceptrice"],
         "description": "Idéation, réflexion, création, nous sommes passées par pleins d’étapes pour créer cette start-up ! <br /><br /> Je vous présente Tagaday, une application de gestion de centres équestres. Nous avons créé la maquette de l’application afin de tester notre idée et son utilisation, pour savoir si nous répondons au mieux à la demande du marché. <br /><br /> Nous avons pu pitché notre projet devant la gérante de l’Incubateur de Savoie Technolac, qui a une vraie expertise de cet exercice et nous a donné de vrais conseils pour le jour où nous voudrons vraiment montrer un projet de start-up.",
         "tools": ["Figma", "Internet", "Cours"],
@@ -682,7 +682,7 @@ const data = {
         "category": "Projet étudiant",
         "date": "Sept. 2023 - Mai 2024",
         "class": "MMI3",
-        "competences_mmi": ["Produire des pages et applications web responsives", "Intégrer, produire ou développer des interactions riches ou dispositifs interactifs", "Optimiser une application web en référencement et temps de chargement", "Entreprendre : Piloter un produit, un service ou une équipe", "Entreprendre : Maitriser la qualité en projet web ou multimédia"],
+        "competences_mmi": ["Développer à l’aide d’un framework de développement côté client", "Développer à l’aide d’un framework de développement côté serveur", "Développer des dispositifs interactifs sophistiqués", "Maîtriser l'hébergement et le déploiement d'applications", "Entreprendre : Piloter un produit, un service ou une équipe", "Entreprendre : Maitriser la qualité en projet web ou multimédia"],
         "roles": ["Développeuse", "Conceptrice", "Bricoleuse"],
         "description": "Dans le cadre de notre projet de fin d’études, nous avons pu concevoir une serre connectée. Nous avons donc dû réfléchir à tous les aspects de la serre, de la conception à la réalisation. Nous avons dû faire des recherches sur les plantes, les capteurs, les systèmes d’arrosage, etc. <br /><br /> Mon groupe a aussi fait des recherches sur les différentes technologies que nous allions utiliser pour rendre notre serre connectée. Nous avons donc utilisé des capteurs pour mesurer l’humidité, la température, la vitesse du vent, etc. <br /><br /> Notre serre est aussi accompagné d'une application web qui nous permet de contrôler la serre à distance, en automatisant l'arrosage par exemple tout en laissant un mode manuel.",
         "tools": ["Figma", "HTML", "React", "Arduino", "Capteurs", "API"],
@@ -717,7 +717,7 @@ const data = {
         "category": "Expérience professionnelle",
         "date": "Sept. 2023 - août 2024",
         "class": "MMI3",
-        "competences_mmi": ["Intégrer, produire ou développer des interactions riches ou dispositifs interactifs", "Entreprendre : Piloter un produit, un service ou une équipe", "Entreprendre : Maitriser la qualité en projet web ou multimédia"],
+        "competences_mmi": ["Développer à l’aide d’un framework de développement côté serveur", "Maîtriser l'hébergement et le déploiement d'applications", "Entreprendre : Piloter un produit, un service ou une équipe", "Entreprendre : Maitriser la qualité en projet web ou multimédia"],
         "roles": ["Développeuse", "Cheffe de projet", "Intégratrice"],
         "description": "Notre 3e année étant en alternance, j'ai pu intégré l'entreprise MyRole, une start-up qui propose une web-application de dématérialisation de gestion humaine dans le monde du cinéma. <br /><br /> Afin de découvrir l'entreprise, j'ai commencé par apprendre comment marche une fonctionnalité importante de l'outil, l'intégration de contrat. J'a donc intégré des contrats word en fichier html et twig afin d'avoir des variables et de pouvoir le générer sur les films. C'est un travail qui semble simple mais il demande beaucoup de vigueur car il ne doit pas y avoir d'erreur. Ce sont des fichiers importants pour les productions et ils ne doivent pas avoir de fautes. <br /><br /> De plus, j'ai pu aller plus loin dans ce principe d'intégration en créant des fonctions réutilisables, comme les pieds de pages. Ewan, notre stagaire, l'a ensuite perfectionné et rendu plus simple d'utilisation.",
         "tools": ["Twig", "HTML", "SQL", "BDD", "Notion", "Trello", "Discord", "Visual Studio Code"],
@@ -752,7 +752,7 @@ const data = {
         "category": "Expérience professionnelle",
         "date": "Sept. 2023 - juillet 2024",
         "class": "MMI3",
-        "competences_mmi": ["Mettre en place ou développer un back office", "Produire des pages et applications web responsives", "Intégrer, produire ou développer des interactions riches ou dispositifs interactifs", "Optimiser une application web en référencement et temps de chargement", "Entreprendre : Piloter un produit, un service ou une équipe", "Entreprendre : Maitriser la qualité en projet web ou multimédia"],
+        "competences_mmi": ["Développer à l’aide d’un framework de développement côté client", "Développer à l’aide d’un framework de développement côté serveur", "Développer des dispositifs interactifs sophistiqués", "Entreprendre : Piloter un produit, un service ou une équipe", "Entreprendre : Maitriser la qualité en projet web ou multimédia"],
         "roles": ["Développeuse", "Cheffe de projet", "Intégratrice"],
         "description": `Notre 3e année étant en alternance, j'ai pu intégré l'entreprise MyRole, une start-up qui propose une web-application de dématérialisation de gestion humaine dans le monde du cinéma. <br /><br /> Après avoir pris en main la v2 (version en production), on m'a intégré au développement de la v3. Il s'agit d'une refonte totale de l'application, avec une nouvelle interface, un nouveau back-end et front-end et des fonctionnalités adaptés au besoin. <br /> <br /> J'ai pu travailler sur la partie front-end de l'application, en utilisant React pour la première fois sur un gros projet. C'est assez complexe de rentrer dans le projet car il y a beaucoup d'interdependances, un composant en appel un autre et demande d'autres ressources. Quand on n'a pas l'habitude de travailler sur des gros projets, le début est fastidieux. Mais j'ai pu apprendre beaucoup de choses et cela m'aide pour la partie gestion de projet, afin de m'adapter et mieux évaluer le découpage des tâches et l'estimation du temps.`,
         "tools": ["Twig", "HTML", "SQL", "BDD", "Notion", "Trello", "Discord", "Visual Studio Code"],
