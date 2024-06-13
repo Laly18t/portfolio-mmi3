@@ -5,7 +5,7 @@ function TopPage(page, text, titreText) {
     let contenu = "";
     let img = "";
 
-    if (page.page === "projet" || page.page === "experiences") {
+    if (page.page === "projet" || page.page === "experiences" || page.page === "competences") {
         contenu = (
             <>
                 <p className="text-2xl"><b className="stroke">{page.titreText} :</b></p>

@@ -539,7 +539,7 @@ const data = {
         "class": "Projet personnel",
         "competences_mmi": ["Développer des dispositifs interactifs sophistiqués", "Entreprendre : Concevoir un projet d’entreprise innovante", "Entreprendre : Piloter un produit, un service ou une équipe", "Entreprendre : Maitriser la qualité en projet web ou multimédia"],
         "roles":
-            ["Bricoleuse du dimanche", "Développeuse web", "Développeuse IoT"],
+            ["Bricoleuse du dimanche", "Développeuse web & IoT"],
         "description": "Pour répondre à un problème de surpopulation de moustique à la Motte-Servolex, nous avons eu l’idée avec Serge Helies et Guillaume Dumoulin de recréer « fait maison » un piège à moustiques vu sur internet. <br /><br /> Il s’agit d’une boîte qui aspire les moustiques en diffusant des hormones pour les attirer afin de les piéger dans un filet. Nous avons donc voulu la refaire à petit budget pour les habitants, tout en récupérant des composants informatiques que les personnes jettent en changeant de pc ou pour d’autres raisons. <br /><br /> Nous avons donc fait un prototype de la boîte, et j’ai développé une mini application pour pouvoir communiquer les données de la boîte à distance.",
         "tools":
             ["Arduino", "Composants inutilisés", "API"],

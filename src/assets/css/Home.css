@@ -378,3 +378,18 @@ u {
     font-weight: bold;
   }
 }
+
+
+.lienA {
+  a {
+    text-decoration: underline var(--color-terracota);
+    transition: 0.7s;
+
+  }
+
+  a:hover {
+    text-decoration: underline dashed var(--color-vert);
+    transition: 0.7s;
+
+  }
+}

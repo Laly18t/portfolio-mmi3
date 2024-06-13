@@ -11,6 +11,7 @@ import Home from './pages/Home';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Project from './pages/Project';
 import XP from './pages/XP';
+import Skills from './pages/Skills';
 import AllProjects from './pages/AllProjects';
 import MentionsLegales from './pages/MentionsLegales';
 
@@ -25,6 +26,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/projets" element={<AllProjects />} />
           <Route path="/experiences" element={<XP />} />
+          <Route path="/competences" element={<Skills />} />
           <Route path="/projet/:projectId" element={<Project />} />
           <Route path="/mentions-legales" element={<MentionsLegales />} />
         </Routes>

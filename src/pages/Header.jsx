@@ -8,6 +8,7 @@ function Header() {
                 <nav className="text-beigee">
                     <ul>
                         <li><a href="/projets">Projets</a></li>
+                        <li><a href="/competences">Compétences</a></li>
                         <li><a href="./#moiLink">Moi</a></li>
                         <li><a href="/experiences">XP</a></li>
                     </ul>
