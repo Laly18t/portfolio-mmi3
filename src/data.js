@@ -686,7 +686,7 @@ const data = {
         "competences_mmi": ["Développer à l’aide d’un framework de développement côté client", "Développer à l’aide d’un framework de développement côté serveur", "Développer des dispositifs interactifs sophistiqués", "Maîtriser l'hébergement et le déploiement d'applications", "Entreprendre : Piloter un produit, un service ou une équipe", "Entreprendre : Maitriser la qualité en projet web ou multimédia"],
         "roles": ["Développeuse", "Conceptrice", "Bricoleuse"],
         "description": "Dans le cadre de notre projet de fin d’études, nous avons pu concevoir une serre connectée. Nous avons donc dû réfléchir à tous les aspects de la serre, de la conception à la réalisation. Nous avons dû faire des recherches sur les plantes, les capteurs, les systèmes d’arrosage, etc. <br /><br /> Mon groupe a aussi fait des recherches sur les différentes technologies que nous allions utiliser pour rendre notre serre connectée. Nous avons donc utilisé des capteurs pour mesurer l’humidité, la température, la vitesse du vent, etc. <br /><br /> Notre serre est aussi accompagné d'une application web qui nous permet de contrôler la serre à distance, en automatisant l'arrosage par exemple tout en laissant un mode manuel.",
-        "tools": ["Figma", "HTML", "React", "Arduino", "Capteurs", "API"],
+        "tools": ["Figma", "HTML", "React", "Raspebbery Pi", "NodeJs", "Capteurs", "API"],
         "skill": ["Développement web", "Conception", "Bricolage", "IoT"],
         "img": [
             {
