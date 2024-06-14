@@ -718,8 +718,9 @@ const data = {
         "category": "Expérience professionnelle",
         "date": "Sept. 2023 - août 2024",
         "class": "MMI3",
+        "link": "https://app.myrole.fr/movie/349/contracts-generation?context=contracts_on_movie_349&template=contrat_tech_prepa_dalloway",
         "competences_mmi": ["Développer à l’aide d’un framework de développement côté serveur", "Maîtriser l'hébergement et le déploiement d'applications", "Entreprendre : Piloter un produit, un service ou une équipe", "Entreprendre : Maitriser la qualité en projet web ou multimédia"],
-        "roles": ["Développeuse", "Cheffe de projet", "Intégratrice"],
+        "roles": ["Développeuse", "Support", "Intégratrice"],
         "description": "Notre 3e année étant en alternance, j'ai pu intégré l'entreprise MyRole, une start-up qui propose une web-application de dématérialisation de gestion humaine dans le monde du cinéma. <br /><br /> Afin de découvrir l'entreprise, j'ai commencé par apprendre comment marche une fonctionnalité importante de l'outil, l'intégration de contrat. J'a donc intégré des contrats word en fichier html et twig afin d'avoir des variables et de pouvoir le générer sur les films. C'est un travail qui semble simple mais il demande beaucoup de vigueur car il ne doit pas y avoir d'erreur. Ce sont des fichiers importants pour les productions et ils ne doivent pas avoir de fautes. <br /><br /> De plus, j'ai pu aller plus loin dans ce principe d'intégration en créant des fonctions réutilisables, comme les pieds de pages. Ewan, notre stagaire, l'a ensuite perfectionné et rendu plus simple d'utilisation.",
         "tools": ["Twig", "HTML", "SQL", "BDD", "Notion", "Trello", "Discord", "Visual Studio Code"],
         "skill": ["Développement web", "Intégration de contrat", "Gestion de données", "Création de fonctions réutilisables"],
@@ -756,8 +757,8 @@ const data = {
         "link": "https://v3.myrole.vasypaulette.com/tableau-de-bord-production/",
         "competences_mmi": ["Développer à l’aide d’un framework de développement côté client", "Développer à l’aide d’un framework de développement côté serveur", "Développer des dispositifs interactifs sophistiqués", "Entreprendre : Piloter un produit, un service ou une équipe", "Entreprendre : Maitriser la qualité en projet web ou multimédia"],
         "roles": ["Développeuse", "Cheffe de projet", "Intégratrice"],
-        "description": `Notre 3e année étant en alternance, j'ai pu intégré l'entreprise MyRole, une start-up qui propose une web-application de dématérialisation de gestion humaine dans le monde du cinéma. <br /><br /> Après avoir pris en main la v2 (version en production), on m'a intégré au développement de la v3. Il s'agit d'une refonte totale de l'application, avec une nouvelle interface, un nouveau back-end et front-end et des fonctionnalités adaptés au besoin. <br /> <br /> J'ai pu travailler sur la partie front-end de l'application, en utilisant React pour la première fois sur un gros projet. C'est assez complexe de rentrer dans le projet car il y a beaucoup d'interdependances, un composant en appel un autre et demande d'autres ressources. Quand on n'a pas l'habitude de travailler sur des gros projets, le début est fastidieux. Mais j'ai pu apprendre beaucoup de choses et cela m'aide pour la partie gestion de projet, afin de m'adapter et mieux évaluer le découpage des tâches et l'estimation du temps.`,
-        "tools": ["Twig", "HTML", "SQL", "BDD", "Notion", "Trello", "Discord", "Visual Studio Code"],
+        "description": `Notre 3e année étant en alternance, j'ai pu intégré l'entreprise MyRole, une start-up qui propose une web-application de dématérialisation de gestion humaine dans le monde du cinéma. <br /><br /> Après avoir pris en main la v2 (version en production), on m'a intégré au développement de la v3. Il s'agit d'une refonte totale de l'application, avec une nouvelle interface, un nouveau back-end et front-end et des fonctionnalités adaptés aux différents besoins. <br /> <br /> J'ai pu travailler sur la partie front-end de l'application, en utilisant React pour la première fois sur un gros projet. C'est assez complexe de rentrer dans le projet car il y a beaucoup d'interdependances, un composant en appel un autre et demande d'autres ressources. Quand on n'a pas l'habitude de travailler sur des gros projets, le début est fastidieux. Malgré cela, j'ai pu apprendre beaucoup de choses et cela m'aide pour la partie gestion de projet, afin de m'adapter et mieux évaluer le découpage des tâches et l'estimation du temps.`,
+        "tools": ["React", "Symfony", "API Plateform", "BDD", "Notion", "Trello", "Discord", "Visual Studio Code"],
         "skill": ["Développement web", "Intégration de pages", "Gestion de données", "Gestion des routes de l'API", "Création/modification d'entités"],
         "img": [
             {
@@ -781,7 +782,7 @@ const data = {
                 "alt": "partie automatique de l'application"
             }
         ],
-        "conclusion": "La v3 est un gros projet et j'ai pu apprendre beaucoup de choses en travaillant dessus. C'est très formateur et cela me permet de,m'améliorer en développement web même si ce n'est pas ma spécialité. J'ai pu apprendre de nouvelles manières de faire et de travailler, ce qui m'apporte une meilleure vision de l'ensemble d'un projet d'envergure comme celui-ci."
+        "conclusion": "La v3 est un gros projet et j'ai pu apprendre beaucoup de choses en travaillant dessus. C'est très formateur et cela me permet de m'améliorer en développement web même si ce n'est pas ma spécialité. J'ai pu apprendre de nouvelles manières de faire et de travailler, ce qui m'apporte une meilleure vision de l'ensemble d'un projet d'envergure comme celui-ci."
     },
     "myrole_v3_gestionproj": {
         "title": "MyRole - V3",
