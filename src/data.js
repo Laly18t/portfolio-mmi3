@@ -817,7 +817,7 @@ const data = {
                 "alt": "mission UX"
             }
         ],
-        "conclusion": "Après cette année à MyRole, j'ai l'imporession d'avoir appris énormement de chose très différente les unes des autres et de m'être adaptée à chaque situation. C'est très enrichissant et cela me permet de mieux comprendre les enjeux de chaque partie d'un projet. C'est très formateur et je me sens chauceuse d'avoir pu faire cette alternance."
+        "conclusion": "Après cette année à MyRole, j'ai l'impression d'avoir appris énormement de chose très différente les unes des autres et de m'être adaptée à chaque situation. C'est très enrichissant et cela me permet de mieux comprendre les enjeux de chaque partie d'un projet. C'est très formateur et je me sens chauceuse d'avoir pu faire cette alternance."
     }
 };
 
