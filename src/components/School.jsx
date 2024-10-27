@@ -18,9 +18,15 @@ function School() {
                             <div>
                                 <p className="text-2xl"><b className="text-5xl">BUT MMI</b> (Métiers du Multimédia et de l’Internet)</p>
                                 <p className="text-center text-xl mt-4">- Spécialité développement web -</p>
+                                <p className="text-center text-xl mt-4 mb-4">IUT de Chambéry</p>
+
+                                <p className="text-2xl"><b className="text-5xl">Master ECNI</b> (Expert en création numérique intéractive)</p>
+                                <p className="text-center text-xl mt-4">- Spécialité développement web -</p>
+                                <p className="text-center text-xl mt-4">Ecole by CCI x Gobelins Paris</p>
+
                             </div>
                         </div>
-                        <p className="mt-8 text-center text-xl w-2/3 m-auto ">Grâce à cette formation, j’ai pu découvrir de nombreux domaines du multimédia comme l’audiovisuel, la communication, le graphisme et le développement web.
+                        <p className="mt-8 text-center text-xl w-2/3 m-auto ">Grâce à ces formations, j’ai pu découvrir de nombreux domaines du multimédia comme l’audiovisuel, la communication, le graphisme et le développement web.
                             Cela m’a permis de devenir un véritable couteau-suisse du web ! Je peux maintenant mettre mon expertise de chaque domaine au coeur de la gestion de VOS projets. </p>
                     </div>
                 </div>
