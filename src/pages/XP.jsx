@@ -9,15 +9,19 @@ function XP() {
                 <ol>
                     <li className='w-fit pr-2'>
                         <p className="text-terracota">Décembre 2024 - actuellement</p>
-                        <p><span className='stroke titreXP pr-4'>Alternance</span> à <b>YamaCMS</b> -&gt; Gestion de projet, communication et développement web</p>
+                        <p><span className='stroke titreXP pr-2'>Alternance</span> à <b>YamaCMS</b> -&gt; Gestion de projet, communication et développement web</p>
                     </li>
                     <li className='w-fit pr-2'>
                         <p className="text-terracota">Septembre 2024 - novembre 2024</p>
-                        <p><span className='stroke titreXP pr-4'>Alternance</span> à <b>JeanLain</b> -&gt; Gestion de projet web</p>
+                        <p><span className='stroke titreXP pr-2'>Alternance</span> à <b>JeanLain</b> -&gt; Gestion de projet web</p>
+                    </li>
+                     <li className='w-fit pr-2'>
+                        <p className="text-terracota">Septembre 2024 - Juin 2026</p>
+                        <p><span className='stroke titreXP pr-2'>Master</span> à <b>l'école by CCI / Gobelins Paris</b> -&gt; Expert en création numérique interactive</p>
                     </li>
                     <li className='w-fit pr-2'>
                         <p className="text-terracota">Septembre 2023 - juillet 2024</p>
-                        <p><span className='stroke titreXP pr-4'>Alternance</span> à <b>MyRole</b> -&gt; Web-application de dématéralisation des ressources humaines dans le monde du cinéma</p>
+                        <p><span className='stroke titreXP pr-2'>Alternance</span> à <b>MyRole</b> -&gt; Web-application de dématéralisation des ressources humaines dans le monde du cinéma</p>
                         <p>Suivi et gestion de projet du développement de la refonte de l'application</p>
                     </li>
                     <li>
