@@ -56,12 +56,6 @@ import infographie_web_2 from "./assets/photo/infographie_web_2.png"
 import infographie_web_3 from "./assets/photo/infographie_web_3.png"
 
 
-/* IMG Tagaday */
-import tagaday0 from "./assets/photo/tagaday0.png"
-import tagaday1 from "./assets/photo/tagaday1.png"
-import tagaday2 from "./assets/photo/tagaday2.png"
-import tagaday3 from "./assets/photo/tagaday3.png"
-
 /* IMG Serre connectée */
 import serre0 from "./assets/photo/serre0.svg"
 import serre1 from "./assets/photo/serre1.png"
@@ -69,13 +63,6 @@ import serre2 from "./assets/photo/serre2.png"
 import serre3 from "./assets/photo/serre3.png"
 import serre4 from "./assets/photo/serre4.png"
 
-
-/* IMG myrole V2 */
-import myrole_logo_0 from "./assets/photo/myrole_logo_0.png"
-import myrole_v2_1 from "./assets/photo/myrole_v2_1.png"
-import myrole_v2_2 from "./assets/photo/myrole_v2_2.png"
-import myrole_v2_3 from "./assets/photo/myrole_v2_3.png"
-import myrole_v2_4 from "./assets/photo/myrole_v2_4.png"
 
 /* IMG myrole V3 DEV */
 import myrole_v3_dev_1 from "./assets/photo/myrole_v3_dev_1.png"
@@ -347,52 +334,6 @@ const data = {
         "conclusion": "Nous l’avons fait ! Malgré la complexité de la demande (un site multilingue), nous avons pu lui rendre un site administrable avec un vrai rendu professionnel. Je suis très contente d’avoir pu parler avec une cliente et de rendre réalisable ses besoins, c’est très motivant pour la suite !",
         "on_top": true
     },
-    "artemis_site": {
-        "title": "Art’émis - Site web",
-        "short_description": "Développement du site web de l’agence Art’émis",
-        "category": "Projet étudiant",
-        "date": "Avril 2022",
-        "class": "MMI1",
-        "competences_mmi": ["Entreprendre : Piloter un produit, un service ou une équipe", "Entreprendre : Maitriser la qualité en projet web ou multimédia"],
-        "roles": [
-            "Développeuse web"
-        ],
-        "description": "En première année de MMI, nous avons organisé une exposition de 4 œuvres numériques et interactives. Afin de s’organiser dans la livraison de ces œuvres, nous nous sommes organisé en agence, nommé Art’émis. <br /><br /> Nous l’avons valorisé à travers un site web, pour présenter tous les membres et leurs spécialités, mais aussi pour présenter nos œuvres et le travail qu’il y a derrière. <br /><br /> C’est moi qui me suis chargée de la rédaction des contenus, donc j’ai pu adapter leurs tailles en fonction de la place que les graphistes avaient définit.",
-        "tools": [
-            "HTML",
-            "CSS",
-            "PHP",
-            "Figma"
-        ],
-        "skill": [
-            "Développement web",
-            "Communication",
-            "Rédaction"
-        ],
-        "img": [
-            {
-                "src": artemisLogo,
-                "alt": "logo Art'émis"
-            },
-            {
-                "src": artemis3,
-                "alt": "vue en 3D de l'exposition"
-            },
-            {
-                "src": idol,
-                "alt": "affiche de l'evenement"
-            },
-            {
-                "src": artemis2,
-                "alt": "publication instagram"
-            },
-            {
-                "src": elementaris,
-                "alt": "affiche de l'oeuvre elementaris"
-            }
-        ],
-        "conclusion": "Ayant une double casquette, cheffe de projet et développeuse, j’ai pu suivre l’avancée de la maquette et communiquer directement avec les graphistes sur ce qui est faisable et rapide à faire et ce qui ne l’est pas. Je trouve que c’est très important d’inclure tous les aspects d’un projet et de ne pas juste faire ’sa partie’."
-    },
     "mmix_site": {
         "title": "MMIX - Site Web",
         "short_description": "Développement du site web de l’évènement MMIX",
@@ -642,41 +583,6 @@ const data = {
         ],
         "conclusion": "Avec cette infographie interactive, j’ai voulu sensibilisation sur un sujet tout en le rendant ludique : ici le développement n’est pas une finalité mais un moyen de mettre en valeur une idée/concept. J’ai pu faire l’apprentissage de l’intégration de méthode d’animation web et de leur logique, ce qui m’a permis d’aller plus loin sur l’aspect front-end du métier de développeur."
     },
-    "tagaday": {
-        "title": "Start-up Tagaday!",
-        "short_description": "Création d’une start-up sur un projet innovant",
-        "category": "Projet étudiant",
-        "date": "Décembre 2023",
-        "class": "MMI2",
-        "competences_mmi": ["Entreprendre : Concevoir un projet d’entreprise innovante", "Entreprendre : Défendre un projet de manière convaincante"],
-        "roles": ["Communicante", "Conceptrice"],
-        "description": "Idéation, réflexion, création, nous sommes passées par pleins d’étapes pour créer cette start-up ! <br /><br /> Je vous présente Tagaday, une application de gestion de centres équestres. Nous avons créé la maquette de l’application afin de tester notre idée et son utilisation, pour savoir si nous répondons au mieux à la demande du marché. <br /><br /> Nous avons pu pitché notre projet devant la gérante de l’Incubateur de Savoie Technolac, qui a une vraie expertise de cet exercice et nous a donné de vrais conseils pour le jour où nous voudrons vraiment montrer un projet de start-up.",
-        "tools": ["Figma", "Internet", "Cours"],
-        "skill": ["Communication", "Conception"],
-        "img": [
-            {
-                "src": tagaday0,
-                "alt": "logo tagaday"
-            },
-            {
-                "src": tagaday2,
-                "alt": "figma de tagaday"
-            },
-            {
-                "src": tagaday1,
-                "alt": "ecran de connexion tagaday"
-            },
-            {
-                "src": tagaday2,
-                "alt": "figma tagaday"
-            },
-            {
-                "src": tagaday3,
-                "alt": "page d'accueil tagaday"
-            }
-        ],
-        "conclusion": "Ce projet a été très enrichissant car on sait désormais comment créer sa start-up et savoir si son projet est viable ! C’est une compétence importante pour notre avenir afin d’avoir toutes les cartes en main pour faire de bons choix."
-    },
     "serre": {
         "title": "Serre connectée",
         "short_description": "Création d’une serre automatisée et connectée",
@@ -711,42 +617,6 @@ const data = {
             }
         ],
         "conclusion": "Malgré la longueur du projet et le manque de connaissances en électronique, j’ai pu apprendre à faire un projet d'A à Z et à le mener à bien (presque !). Notre classe s'est beaucoup entraidé et nous avons pu nous dépasser grâce à cet effort commun. <br /> C’est très gratifiant de voir un projet se concrétiser et de pouvoir le montrer à des personnes qui ne connaissent pas le domaine."
-    },
-    "myrole_v2": {
-        "title": "MyRole - V2",
-        "short_description": "Alternance dans l'entreprise MyRole, une web-application de dématérialisation de gestion humaine dans le monde du cinéma",
-        "category": "Expérience professionnelle",
-        "date": "Sept. 2023 - août 2024",
-        "class": "MMI3",
-        "link": "https://app.myrole.fr/movie/349/contracts-generation?context=contracts_on_movie_349&template=contrat_tech_prepa_dalloway",
-        "competences_mmi": ["Développer à l’aide d’un framework de développement côté serveur", "Maîtriser l'hébergement et le déploiement d'applications", "Entreprendre : Piloter un produit, un service ou une équipe", "Entreprendre : Maitriser la qualité en projet web ou multimédia"],
-        "roles": ["Développeuse", "Support", "Intégratrice"],
-        "description": "Notre 3e année étant en alternance, j'ai pu intégré l'entreprise MyRole, une start-up qui propose une web-application de dématérialisation de gestion humaine dans le monde du cinéma. <br /><br /> Afin de découvrir l'entreprise, j'ai commencé par apprendre comment marche une fonctionnalité importante de l'outil, l'intégration de contrat. J'a donc intégré des contrats word en fichier html et twig afin d'avoir des variables et de pouvoir le générer sur les films. C'est un travail qui semble simple mais il demande beaucoup de vigueur car il ne doit pas y avoir d'erreur. Ce sont des fichiers importants pour les productions et ils ne doivent pas avoir de fautes. <br /><br /> De plus, j'ai pu aller plus loin dans ce principe d'intégration en créant des fonctions réutilisables, comme les pieds de pages. Ewan, notre stagaire, l'a ensuite perfectionné et rendu plus simple d'utilisation.",
-        "tools": ["Twig", "HTML", "SQL", "BDD", "Notion", "Trello", "Discord", "Visual Studio Code"],
-        "skill": ["Développement web", "Intégration de contrat", "Gestion de données", "Création de fonctions réutilisables"],
-        "img": [
-            {
-                "src": myrole_logo_0,
-                "alt": "logo de MyRole"
-            },
-            {
-                "src": myrole_v2_1,
-                "alt": "exemple de contrat à intégrer"
-            },
-            {
-                "src": myrole_v2_2,
-                "alt": "code du contrat intégré"
-            },
-            {
-                "src": myrole_v2_3,
-                "alt": "base de donnée de myrole"
-            },
-            {
-                "src": myrole_v2_4,
-                "alt": "création de table dans la base de données"
-            }
-        ],
-        "conclusion": "Grâce à ces intégrations, j'ai pu mieux comprendre les enjeux de notre application et comment les productions l'utilisent. J'ai pu aussi apprendre à travailler en équipe et à communiquer avec des personnes qui n'ont pas les mêmes compétences que moi. <br /> C'est très enrichissant et cela me permet de mieux comprendre notre v3 et de mieux expliquer les fonctionnalités."
     },
     "myrole_v3_dev": {
         "title": "MyRole - V3",
