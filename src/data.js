@@ -65,6 +65,7 @@ import serre4 from "./assets/photo/serre4.png"
 
 
 /* IMG myrole V3 DEV */
+import myrole_logo_0 from "./assets/photo/myrole_logo_0.png"
 import myrole_v3_dev_1 from "./assets/photo/myrole_v3_dev_1.png"
 import myrole_v3_dev_2 from "./assets/photo/myrole_v3_dev_2.png"
 import myrole_v3_dev_3 from "./assets/photo/myrole_v3_dev_3.png"
