@@ -5,8 +5,8 @@ function XP() {
     return (
         <>
             <TopPage page="experiences" titreText="Mes expériences" text="Découvrez mon parcours dans le monde du multimédia" />
-            <div className='lg:ml-24 mt-8 wrap timelineXP w-full'>
-                <ol>
+            <div className=' mt-8 wrap timelineXP w-full bg-vertt pt-16 rounded-t-xl'>
+                <ol className='bg-beigee p-4 rounded-lg'>
                     <li className='w-fit pr-2'>
                         <p className="text-terracota">Décembre 2024 - actuellement</p>
                         <p><span className='stroke titreXP pr-2'>Alternance</span> à <b>YamaCMS</b> -&gt; Gestion de projet, communication et développement web</p>
@@ -15,7 +15,7 @@ function XP() {
                         <p className="text-terracota">Septembre 2024 - novembre 2024</p>
                         <p><span className='stroke titreXP pr-2'>Alternance</span> à <b>JeanLain</b> -&gt; Gestion de projet web</p>
                     </li>
-                     <li className='w-fit pr-2'>
+                    <li className='w-fit pr-2'>
                         <p className="text-terracota">Septembre 2024 - Juin 2026</p>
                         <p><span className='stroke titreXP pr-2'>Master</span> à <b>l'école by CCI / Gobelins Paris</b> -&gt; Expert en création numérique interactive</p>
                     </li>
@@ -38,6 +38,7 @@ function XP() {
                         <p><span className='stroke titreXP'>Baccalauréat</span> spécialités Mathématiques et Sciences Economiques et Sociales (mention Bien)</p></li>
                 </ol>
             </div>
+            <p className='text-2xl text-center mt-8 '>Il me reste encore beaucoup de chemin à parcourir, mais j'ai hâte d'en apprendre toujours plus !</p>
         </>
     );
 }
