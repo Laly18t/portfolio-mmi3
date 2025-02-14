@@ -2,6 +2,7 @@ import logoLaly from "./assets/logoLaly.svg"
 
 /* IMG MMIX */
 import mmixLogo from "./assets/photo/mmixLogo.png"
+import mmixMockup from "./assets/photo/mmixMockup.png"
 import mmix from "./assets/photo/mmix.png"
 import mmix0 from "./assets/photo/mmix0.jpeg"
 import mmix1 from "./assets/photo/mmix1.jpeg"
@@ -28,7 +29,7 @@ import artemis3 from "./assets/photo/artemis3.png"
 import idol from "./assets/photo/idol.jpeg"
 
 /* IMG MUEW */
-import muewLogo from "./assets/photo/muewLogo.jpeg"
+import muewMockup from "./assets/photo/muewMockup.png"
 import muew0 from "./assets/photo/muew0.png"
 import muew1 from "./assets/photo/muew1.png"
 import muew2 from "./assets/photo/muew2.png"
@@ -312,7 +313,7 @@ const data = {
         "link": "https://muew.eu/",
         "img": [
             {
-                "src": muewLogo,
+                "src": muewMockup,
                 "alt": "logo muew"
             },
             {
@@ -359,12 +360,12 @@ const data = {
         "link": "https://web.archive.org/web/20230327013916/https://mmixchambery.fr/",
         "img": [
             {
-                "src": mmixLogo,
-                "alt": "logo mmix"
+                "src": mmixMockup,
+                "alt": "Mockup site mmix"
             },
             {
-                "src": mmix,
-                "alt": "interface live mmix"
+                "src": mmixMockup,
+                "alt": "Mockup site mmix"
             },
             {
                 "src": mmix2,
