@@ -36,8 +36,8 @@ function CarrousselProjects() {
                                     <a className='cardItem' href={`/projet/${idProject}`}>
                                         <li key={idProject} className="flex flex-col !w-72 !h-52 ease-in-out hover:bg-terracota cardLi bg-terracota p-1 rounded-lg m-4 text-white">
                                             <p className='text-xl strokeBlanc'><b>{project.title}</b></p>
-                                            <img className="w-16 m-auto" src={project.img[0].src} alt={project.img[0].alt}></img>
-                                            {project.skill.join(" - ")}
+                                            <img className="m-auto w-content !h-40" src={project.img[0].src} alt={project.img[0].alt}></img>
+                                            {/* {project.skill.join(" - ")} */}
                                         </li>
                                     </a>
                                 </>
