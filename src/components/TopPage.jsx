@@ -13,7 +13,9 @@ function TopPage(page, text, titreText) {
             </>
         );
         img = (
-            <img className="w-full -mt-16" src={transition1}></img>
+            <svg className="transition w-full -mt-16" width="1280" height="384" viewBox="0 0 1280 384" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path class="path" d="M-50 3C73.5 84 97.9 349.2 263.5 268C429.1 186.8 429.5 109.5 312 138.5C194.5 167.5 150 354.5 379.5 378.5C615.021 403.13 1017.5 138.5 1358 234.5" stroke="#9FC4AD" stroke-width="7px"/>
+            </svg>
         );
     } else {
         contenu = (
@@ -24,18 +26,20 @@ function TopPage(page, text, titreText) {
             </>
         );
         img = (
-            <img className="w-full sm:-mt-16" src={transition1}></img>
+            <svg className="transition w-full sm:-mt-16" width="1280" height="384" viewBox="0 0 1280 384" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path class="path" d="M-50 3C73.5 84 97.9 349.2 263.5 268C429.1 186.8 429.5 109.5 312 138.5C194.5 167.5 150 354.5 379.5 378.5C615.021 403.13 1017.5 138.5 1358 234.5" stroke="#9FC4AD" stroke-width="7px"/>
+            </svg>
         );
     }
 
     return (
-        <>
+        <div className="topPage">
             <div className="homePart1 home relative z-1 text-center w-2/3 wrap">
                 <img className="flex absolute w-16 -top-10 -right-14 -z-1" src={happy}></img>
                 {contenu}
             </div>
             {img}
-        </>
+        </div>
     );
 }
 

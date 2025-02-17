@@ -74,6 +74,7 @@ u {
     right: 4rem;
   }
 
+
   @media screen and (max-width:1480px) {
     img {
       right: 1rem;
@@ -113,6 +114,27 @@ u {
       right: -0.5rem;
       top: -1.5rem;
     }
+  }
+}
+
+.topPage {
+
+  .path {
+    stroke-dasharray: 2100;
+    stroke-dashoffset: 0;
+    animation: dash 6s linear;
+  }
+  
+  @keyframes dash {
+    from {
+      stroke-dashoffset: 1700;
+    }
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+  .transition {
+    right: -10px;
   }
 }
 
